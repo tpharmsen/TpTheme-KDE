@@ -1,0 +1,8 @@
+set(__QT_DEPLOY_TARGET_shapedblur_FILE /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/libshapedblur.a)
+set(__QT_DEPLOY_TARGET_shapedblur_TYPE STATIC_LIBRARY)
+set(__QT_DEPLOY_TARGET_clock-widget_FILE /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/clock-widget)
+set(__QT_DEPLOY_TARGET_clock-widget_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_journal-widget_FILE /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/journal-widget)
+set(__QT_DEPLOY_TARGET_journal-widget_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_terminal-widget_FILE /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/terminal-widget)
+set(__QT_DEPLOY_TARGET_terminal-widget_TYPE EXECUTABLE)

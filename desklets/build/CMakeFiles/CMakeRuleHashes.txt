@@ -1,0 +1,10 @@
+# Hashes of file build rules.
+a8192057a983e19443f8537c00af2856 CMakeFiles/clock-widget_autogen
+a8192057a983e19443f8537c00af2856 CMakeFiles/journal-widget_autogen
+a8192057a983e19443f8537c00af2856 CMakeFiles/shapedblur_autogen
+a8192057a983e19443f8537c00af2856 CMakeFiles/terminal-widget_autogen
+40cda3d90179ab08f8c62c29b4edb301 clock-widget_autogen/5RJMZTD3VX/qrc_clock.cpp
+61e18210eb61dd0f446bfd592bf90ad0 clock-widget_autogen/timestamp
+6e8f9cbb16c5247d4c44dbc43aef895e journal-widget_autogen/timestamp
+984c8037c6942d7568971eb5e5d1a963 shapedblur_autogen/timestamp
+73addb64be960e17042aebc254dd956b terminal-widget_autogen/timestamp

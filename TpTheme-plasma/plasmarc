@@ -1,0 +1,13 @@
+[Wallpaper]
+defaultWallpaperTheme=TpTheme
+defaultFileSuffix=.jpeg
+defaultWidth=3840
+defaultHeight=2160
+
+[ContrastEffect]
+enabled=true
+contrast=1
+saturation=1
+
+[AdaptiveTransparency]
+enabled=true

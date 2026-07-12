@@ -1,0 +1,28 @@
+[Desktop Entry]
+Name=TpTheme
+Comment=TpTheme dark by tpharmsen
+
+X-KDE-PluginInfo-Author=Tom Harmsen
+X-KDE-PluginInfo-Email=tpharmsen@hotmail.com
+X-KDE-PluginInfo-Name=TpTheme
+X-KDE-PluginInfo-Version=5.84.0
+X-KDE-PluginInfo-Website=
+X-KDE-PluginInfo-Category=
+X-KDE-PluginInfo-License=GPL-3.0
+X-KDE-PluginInfo-EnabledByDefault=true
+X-Plasma-API=5.0
+
+[Wallpaper]
+defaultWallpaperTheme=TpTheme
+defaultFileSuffix=.jpeg
+defaultWidth=3840
+defaultHeight=2160
+
+[ContrastEffect]
+enabled=false
+contrast=1
+intensity=1
+saturation=1
+
+[AdaptiveTransparency]
+enabled=true

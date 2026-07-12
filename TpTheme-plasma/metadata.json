@@ -1,0 +1,18 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "tpharmsen@hotmail.com",
+                "Name": "Tom Harmsen"
+            }
+        ],
+        "Category": "Plasma 6.0 theme",
+        "Description": "Theme by Tpharmsen",
+        "EnabledByDefault": true,
+        "Id": "TpTheme",
+        "License": "GPL-3.0",
+        "Name": "TpTheme",
+        "Version": "6.2.0"
+    },
+    "X-Plasma-API": "5.0"
+}
