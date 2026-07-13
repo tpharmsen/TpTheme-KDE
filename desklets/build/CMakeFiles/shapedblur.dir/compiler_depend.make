@@ -686,6 +686,8 @@ shapedblur_autogen/timestamp: /home/tpharmsen/Documents/themes/TpTheme-KDE/deskl
   /usr/share/cmake-4.2/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
   /usr/share/cmake-4.2/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
   /usr/share/cmake-4.2/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
+  /usr/share/cmake-4.2/Modules/FindFontconfig.cmake \
+  /usr/share/cmake-4.2/Modules/FindFreetype.cmake \
   /usr/share/cmake-4.2/Modules/FindOpenGL.cmake \
   /usr/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake \
   /usr/share/cmake-4.2/Modules/FindPackageMessage.cmake \
@@ -713,8 +715,11 @@ shapedblur_autogen/timestamp: /home/tpharmsen/Documents/themes/TpTheme-KDE/deskl
   /usr/share/cmake-4.2/Modules/Platform/Linux-GNU.cmake \
   /usr/share/cmake-4.2/Modules/Platform/Linux-Initialize.cmake \
   /usr/share/cmake-4.2/Modules/Platform/Linux.cmake \
-  /usr/share/cmake-4.2/Modules/Platform/UnixPaths.cmake
+  /usr/share/cmake-4.2/Modules/Platform/UnixPaths.cmake \
+  /usr/share/cmake-4.2/Modules/SelectLibraryConfigurations.cmake
 
+
+/usr/share/cmake-4.2/Modules/SelectLibraryConfigurations.cmake:
 
 /usr/share/cmake-4.2/Modules/Platform/Linux-Initialize.cmake:
 
@@ -743,6 +748,8 @@ shapedblur_autogen/timestamp: /home/tpharmsen/Documents/themes/TpTheme-KDE/deskl
 /usr/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake:
 
 /usr/share/cmake-4.2/Modules/FindOpenGL.cmake:
+
+/usr/share/cmake-4.2/Modules/FindFreetype.cmake:
 
 /usr/share/cmake-4.2/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake:
 
@@ -1903,6 +1910,8 @@ CMakeFiles/4.2.3/CMakeCXXCompiler.cmake:
 /usr/include/c++/15/bits/erase_if.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qevent.h:
+
+/usr/share/cmake-4.2/Modules/FindFontconfig.cmake:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringconverter_base.h:
 

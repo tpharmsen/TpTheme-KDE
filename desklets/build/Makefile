@@ -201,6 +201,19 @@ journal-widget/fast:
 .PHONY : journal-widget/fast
 
 #=============================================================================
+# Target rules for targets named terminal-widget
+
+# Build rule for target.
+terminal-widget: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 terminal-widget
+.PHONY : terminal-widget
+
+# fast build rule for target.
+terminal-widget/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/terminal-widget.dir/build.make CMakeFiles/terminal-widget.dir/build
+.PHONY : terminal-widget/fast
+
+#=============================================================================
 # Target rules for targets named shapedblur_autogen_timestamp_deps
 
 # Build rule for target.
@@ -277,6 +290,32 @@ journal-widget_autogen: cmake_check_build_system
 journal-widget_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/journal-widget_autogen.dir/build.make CMakeFiles/journal-widget_autogen.dir/build
 .PHONY : journal-widget_autogen/fast
+
+#=============================================================================
+# Target rules for targets named terminal-widget_autogen_timestamp_deps
+
+# Build rule for target.
+terminal-widget_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 terminal-widget_autogen_timestamp_deps
+.PHONY : terminal-widget_autogen_timestamp_deps
+
+# fast build rule for target.
+terminal-widget_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/terminal-widget_autogen_timestamp_deps.dir/build.make CMakeFiles/terminal-widget_autogen_timestamp_deps.dir/build
+.PHONY : terminal-widget_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named terminal-widget_autogen
+
+# Build rule for target.
+terminal-widget_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 terminal-widget_autogen
+.PHONY : terminal-widget_autogen
+
+# fast build rule for target.
+terminal-widget_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/terminal-widget_autogen.dir/build.make CMakeFiles/terminal-widget_autogen.dir/build
+.PHONY : terminal-widget_autogen/fast
 
 clock-widget_autogen/5RJMZTD3VX/qrc_clock.o: clock-widget_autogen/5RJMZTD3VX/qrc_clock.cpp.o
 .PHONY : clock-widget_autogen/5RJMZTD3VX/qrc_clock.o
@@ -494,6 +533,78 @@ src/journal/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/journal-widget.dir/build.make CMakeFiles/journal-widget.dir/src/journal/main.cpp.s
 .PHONY : src/journal/main.cpp.s
 
+src/terminal/TerminalWidget.o: src/terminal/TerminalWidget.cpp.o
+.PHONY : src/terminal/TerminalWidget.o
+
+# target to build an object file
+src/terminal/TerminalWidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/terminal-widget.dir/build.make CMakeFiles/terminal-widget.dir/src/terminal/TerminalWidget.cpp.o
+.PHONY : src/terminal/TerminalWidget.cpp.o
+
+src/terminal/TerminalWidget.i: src/terminal/TerminalWidget.cpp.i
+.PHONY : src/terminal/TerminalWidget.i
+
+# target to preprocess a source file
+src/terminal/TerminalWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/terminal-widget.dir/build.make CMakeFiles/terminal-widget.dir/src/terminal/TerminalWidget.cpp.i
+.PHONY : src/terminal/TerminalWidget.cpp.i
+
+src/terminal/TerminalWidget.s: src/terminal/TerminalWidget.cpp.s
+.PHONY : src/terminal/TerminalWidget.s
+
+# target to generate assembly for a file
+src/terminal/TerminalWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/terminal-widget.dir/build.make CMakeFiles/terminal-widget.dir/src/terminal/TerminalWidget.cpp.s
+.PHONY : src/terminal/TerminalWidget.cpp.s
+
+src/terminal/main.o: src/terminal/main.cpp.o
+.PHONY : src/terminal/main.o
+
+# target to build an object file
+src/terminal/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/terminal-widget.dir/build.make CMakeFiles/terminal-widget.dir/src/terminal/main.cpp.o
+.PHONY : src/terminal/main.cpp.o
+
+src/terminal/main.i: src/terminal/main.cpp.i
+.PHONY : src/terminal/main.i
+
+# target to preprocess a source file
+src/terminal/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/terminal-widget.dir/build.make CMakeFiles/terminal-widget.dir/src/terminal/main.cpp.i
+.PHONY : src/terminal/main.cpp.i
+
+src/terminal/main.s: src/terminal/main.cpp.s
+.PHONY : src/terminal/main.s
+
+# target to generate assembly for a file
+src/terminal/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/terminal-widget.dir/build.make CMakeFiles/terminal-widget.dir/src/terminal/main.cpp.s
+.PHONY : src/terminal/main.cpp.s
+
+terminal-widget_autogen/mocs_compilation.o: terminal-widget_autogen/mocs_compilation.cpp.o
+.PHONY : terminal-widget_autogen/mocs_compilation.o
+
+# target to build an object file
+terminal-widget_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/terminal-widget.dir/build.make CMakeFiles/terminal-widget.dir/terminal-widget_autogen/mocs_compilation.cpp.o
+.PHONY : terminal-widget_autogen/mocs_compilation.cpp.o
+
+terminal-widget_autogen/mocs_compilation.i: terminal-widget_autogen/mocs_compilation.cpp.i
+.PHONY : terminal-widget_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+terminal-widget_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/terminal-widget.dir/build.make CMakeFiles/terminal-widget.dir/terminal-widget_autogen/mocs_compilation.cpp.i
+.PHONY : terminal-widget_autogen/mocs_compilation.cpp.i
+
+terminal-widget_autogen/mocs_compilation.s: terminal-widget_autogen/mocs_compilation.cpp.s
+.PHONY : terminal-widget_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+terminal-widget_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/terminal-widget.dir/build.make CMakeFiles/terminal-widget.dir/terminal-widget_autogen/mocs_compilation.cpp.s
+.PHONY : terminal-widget_autogen/mocs_compilation.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -512,9 +623,12 @@ help:
 	@echo "... journal-widget_autogen_timestamp_deps"
 	@echo "... shapedblur_autogen"
 	@echo "... shapedblur_autogen_timestamp_deps"
+	@echo "... terminal-widget_autogen"
+	@echo "... terminal-widget_autogen_timestamp_deps"
 	@echo "... clock-widget"
 	@echo "... journal-widget"
 	@echo "... shapedblur"
+	@echo "... terminal-widget"
 	@echo "... clock-widget_autogen/5RJMZTD3VX/qrc_clock.o"
 	@echo "... clock-widget_autogen/5RJMZTD3VX/qrc_clock.i"
 	@echo "... clock-widget_autogen/5RJMZTD3VX/qrc_clock.s"
@@ -542,6 +656,15 @@ help:
 	@echo "... src/journal/main.o"
 	@echo "... src/journal/main.i"
 	@echo "... src/journal/main.s"
+	@echo "... src/terminal/TerminalWidget.o"
+	@echo "... src/terminal/TerminalWidget.i"
+	@echo "... src/terminal/TerminalWidget.s"
+	@echo "... src/terminal/main.o"
+	@echo "... src/terminal/main.i"
+	@echo "... src/terminal/main.s"
+	@echo "... terminal-widget_autogen/mocs_compilation.o"
+	@echo "... terminal-widget_autogen/mocs_compilation.i"
+	@echo "... terminal-widget_autogen/mocs_compilation.s"
 .PHONY : help
 
 

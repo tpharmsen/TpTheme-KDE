@@ -1,6 +1,7 @@
 /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/shapedblur.dir
 /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/clock-widget.dir
 /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/journal-widget.dir
+/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/terminal-widget.dir
 /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/edit_cache.dir
 /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/rebuild_cache.dir
 /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/list_install_components.dir
@@ -13,3 +14,5 @@
 /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/clock-widget_autogen.dir
 /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/journal-widget_autogen_timestamp_deps.dir
 /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/journal-widget_autogen.dir
+/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/terminal-widget_autogen_timestamp_deps.dir
+/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/terminal-widget_autogen.dir
