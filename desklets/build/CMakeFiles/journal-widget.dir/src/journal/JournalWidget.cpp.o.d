@@ -1,8 +1,8 @@
 CMakeFiles/journal-widget.dir/src/journal/JournalWidget.cpp.o: \
- /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/src/journal/JournalWidget.cpp \
+ /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/journal/JournalWidget.cpp \
  /usr/include/stdc-predef.h \
- /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/src/journal/JournalWidget.h \
- /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/src/common/ShapedBlurWindow.h \
+ /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/journal/JournalWidget.h \
+ /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/common/ShapedBlurWindow.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QWidget \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qwidget.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsglobal.h \

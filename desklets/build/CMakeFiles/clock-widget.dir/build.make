@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets
+CMAKE_SOURCE_DIR = /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build
+CMAKE_BINARY_DIR = /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/clock-widget.dir/depend.make
@@ -72,17 +72,17 @@ include CMakeFiles/clock-widget.dir/flags.make
 clock-widget_autogen/timestamp: /usr/lib/qt6/libexec/moc
 clock-widget_autogen/timestamp: /usr/lib/qt6/libexec/uic
 clock-widget_autogen/timestamp: CMakeFiles/clock-widget.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target clock-widget"
-	/usr/bin/cmake -E cmake_autogen /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/CMakeFiles/clock-widget_autogen.dir/AutogenInfo.json ""
-	/usr/bin/cmake -E touch /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/clock-widget_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target clock-widget"
+	/usr/bin/cmake -E cmake_autogen /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/clock-widget_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E touch /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/clock-widget_autogen/timestamp
 
-clock-widget_autogen/5RJMZTD3VX/qrc_clock.cpp: /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/src/clock/clock.qrc
+clock-widget_autogen/5RJMZTD3VX/qrc_clock.cpp: /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/clock/clock.qrc
 clock-widget_autogen/5RJMZTD3VX/qrc_clock.cpp: CMakeFiles/clock-widget_autogen.dir/AutoRcc_clock_5RJMZTD3VX_Info.json
-clock-widget_autogen/5RJMZTD3VX/qrc_clock.cpp: /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/src/clock/clock.svgz
+clock-widget_autogen/5RJMZTD3VX/qrc_clock.cpp: /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/clock/clock.svgz
 clock-widget_autogen/5RJMZTD3VX/qrc_clock.cpp: /usr/lib/qt6/libexec/rcc
 clock-widget_autogen/5RJMZTD3VX/qrc_clock.cpp: /usr/lib/qt6/libexec/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for src/clock/clock.qrc"
-	/usr/bin/cmake -E cmake_autorcc /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/CMakeFiles/clock-widget_autogen.dir/AutoRcc_clock_5RJMZTD3VX_Info.json 
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for src/clock/clock.qrc"
+	/usr/bin/cmake -E cmake_autorcc /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/clock-widget_autogen.dir/AutoRcc_clock_5RJMZTD3VX_Info.json 
 
 CMakeFiles/clock-widget.dir/codegen:
 .PHONY : CMakeFiles/clock-widget.dir/codegen
@@ -90,58 +90,58 @@ CMakeFiles/clock-widget.dir/codegen:
 CMakeFiles/clock-widget.dir/clock-widget_autogen/mocs_compilation.cpp.o: CMakeFiles/clock-widget.dir/flags.make
 CMakeFiles/clock-widget.dir/clock-widget_autogen/mocs_compilation.cpp.o: clock-widget_autogen/mocs_compilation.cpp
 CMakeFiles/clock-widget.dir/clock-widget_autogen/mocs_compilation.cpp.o: CMakeFiles/clock-widget.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/clock-widget.dir/clock-widget_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clock-widget.dir/clock-widget_autogen/mocs_compilation.cpp.o -MF CMakeFiles/clock-widget.dir/clock-widget_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/clock-widget.dir/clock-widget_autogen/mocs_compilation.cpp.o -c /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/clock-widget_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/clock-widget.dir/clock-widget_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clock-widget.dir/clock-widget_autogen/mocs_compilation.cpp.o -MF CMakeFiles/clock-widget.dir/clock-widget_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/clock-widget.dir/clock-widget_autogen/mocs_compilation.cpp.o -c /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/clock-widget_autogen/mocs_compilation.cpp
 
 CMakeFiles/clock-widget.dir/clock-widget_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/clock-widget.dir/clock-widget_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/clock-widget_autogen/mocs_compilation.cpp > CMakeFiles/clock-widget.dir/clock-widget_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/clock-widget_autogen/mocs_compilation.cpp > CMakeFiles/clock-widget.dir/clock-widget_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/clock-widget.dir/clock-widget_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/clock-widget.dir/clock-widget_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/clock-widget_autogen/mocs_compilation.cpp -o CMakeFiles/clock-widget.dir/clock-widget_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/clock-widget_autogen/mocs_compilation.cpp -o CMakeFiles/clock-widget.dir/clock-widget_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/clock-widget.dir/src/clock/main.cpp.o: CMakeFiles/clock-widget.dir/flags.make
-CMakeFiles/clock-widget.dir/src/clock/main.cpp.o: /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/src/clock/main.cpp
+CMakeFiles/clock-widget.dir/src/clock/main.cpp.o: /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/clock/main.cpp
 CMakeFiles/clock-widget.dir/src/clock/main.cpp.o: CMakeFiles/clock-widget.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/clock-widget.dir/src/clock/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clock-widget.dir/src/clock/main.cpp.o -MF CMakeFiles/clock-widget.dir/src/clock/main.cpp.o.d -o CMakeFiles/clock-widget.dir/src/clock/main.cpp.o -c /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/src/clock/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/clock-widget.dir/src/clock/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clock-widget.dir/src/clock/main.cpp.o -MF CMakeFiles/clock-widget.dir/src/clock/main.cpp.o.d -o CMakeFiles/clock-widget.dir/src/clock/main.cpp.o -c /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/clock/main.cpp
 
 CMakeFiles/clock-widget.dir/src/clock/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/clock-widget.dir/src/clock/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/src/clock/main.cpp > CMakeFiles/clock-widget.dir/src/clock/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/clock/main.cpp > CMakeFiles/clock-widget.dir/src/clock/main.cpp.i
 
 CMakeFiles/clock-widget.dir/src/clock/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/clock-widget.dir/src/clock/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/src/clock/main.cpp -o CMakeFiles/clock-widget.dir/src/clock/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/clock/main.cpp -o CMakeFiles/clock-widget.dir/src/clock/main.cpp.s
 
 CMakeFiles/clock-widget.dir/src/clock/ClockWidget.cpp.o: CMakeFiles/clock-widget.dir/flags.make
-CMakeFiles/clock-widget.dir/src/clock/ClockWidget.cpp.o: /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/src/clock/ClockWidget.cpp
+CMakeFiles/clock-widget.dir/src/clock/ClockWidget.cpp.o: /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/clock/ClockWidget.cpp
 CMakeFiles/clock-widget.dir/src/clock/ClockWidget.cpp.o: CMakeFiles/clock-widget.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/clock-widget.dir/src/clock/ClockWidget.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clock-widget.dir/src/clock/ClockWidget.cpp.o -MF CMakeFiles/clock-widget.dir/src/clock/ClockWidget.cpp.o.d -o CMakeFiles/clock-widget.dir/src/clock/ClockWidget.cpp.o -c /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/src/clock/ClockWidget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/clock-widget.dir/src/clock/ClockWidget.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clock-widget.dir/src/clock/ClockWidget.cpp.o -MF CMakeFiles/clock-widget.dir/src/clock/ClockWidget.cpp.o.d -o CMakeFiles/clock-widget.dir/src/clock/ClockWidget.cpp.o -c /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/clock/ClockWidget.cpp
 
 CMakeFiles/clock-widget.dir/src/clock/ClockWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/clock-widget.dir/src/clock/ClockWidget.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/src/clock/ClockWidget.cpp > CMakeFiles/clock-widget.dir/src/clock/ClockWidget.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/clock/ClockWidget.cpp > CMakeFiles/clock-widget.dir/src/clock/ClockWidget.cpp.i
 
 CMakeFiles/clock-widget.dir/src/clock/ClockWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/clock-widget.dir/src/clock/ClockWidget.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/src/clock/ClockWidget.cpp -o CMakeFiles/clock-widget.dir/src/clock/ClockWidget.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/clock/ClockWidget.cpp -o CMakeFiles/clock-widget.dir/src/clock/ClockWidget.cpp.s
 
 CMakeFiles/clock-widget.dir/clock-widget_autogen/5RJMZTD3VX/qrc_clock.cpp.o: CMakeFiles/clock-widget.dir/flags.make
 CMakeFiles/clock-widget.dir/clock-widget_autogen/5RJMZTD3VX/qrc_clock.cpp.o: clock-widget_autogen/5RJMZTD3VX/qrc_clock.cpp
 CMakeFiles/clock-widget.dir/clock-widget_autogen/5RJMZTD3VX/qrc_clock.cpp.o: CMakeFiles/clock-widget.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/clock-widget.dir/clock-widget_autogen/5RJMZTD3VX/qrc_clock.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clock-widget.dir/clock-widget_autogen/5RJMZTD3VX/qrc_clock.cpp.o -MF CMakeFiles/clock-widget.dir/clock-widget_autogen/5RJMZTD3VX/qrc_clock.cpp.o.d -o CMakeFiles/clock-widget.dir/clock-widget_autogen/5RJMZTD3VX/qrc_clock.cpp.o -c /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/clock-widget_autogen/5RJMZTD3VX/qrc_clock.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/clock-widget.dir/clock-widget_autogen/5RJMZTD3VX/qrc_clock.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clock-widget.dir/clock-widget_autogen/5RJMZTD3VX/qrc_clock.cpp.o -MF CMakeFiles/clock-widget.dir/clock-widget_autogen/5RJMZTD3VX/qrc_clock.cpp.o.d -o CMakeFiles/clock-widget.dir/clock-widget_autogen/5RJMZTD3VX/qrc_clock.cpp.o -c /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/clock-widget_autogen/5RJMZTD3VX/qrc_clock.cpp
 
 CMakeFiles/clock-widget.dir/clock-widget_autogen/5RJMZTD3VX/qrc_clock.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/clock-widget.dir/clock-widget_autogen/5RJMZTD3VX/qrc_clock.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/clock-widget_autogen/5RJMZTD3VX/qrc_clock.cpp > CMakeFiles/clock-widget.dir/clock-widget_autogen/5RJMZTD3VX/qrc_clock.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/clock-widget_autogen/5RJMZTD3VX/qrc_clock.cpp > CMakeFiles/clock-widget.dir/clock-widget_autogen/5RJMZTD3VX/qrc_clock.cpp.i
 
 CMakeFiles/clock-widget.dir/clock-widget_autogen/5RJMZTD3VX/qrc_clock.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/clock-widget.dir/clock-widget_autogen/5RJMZTD3VX/qrc_clock.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/clock-widget_autogen/5RJMZTD3VX/qrc_clock.cpp -o CMakeFiles/clock-widget.dir/clock-widget_autogen/5RJMZTD3VX/qrc_clock.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/clock-widget_autogen/5RJMZTD3VX/qrc_clock.cpp -o CMakeFiles/clock-widget.dir/clock-widget_autogen/5RJMZTD3VX/qrc_clock.cpp.s
 
 # Object files for target clock-widget
 clock__widget_OBJECTS = \
@@ -170,7 +170,7 @@ clock-widget: /usr/lib/x86_64-linux-gnu/libGLX.so
 clock-widget: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 clock-widget: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.10.2
 clock-widget: CMakeFiles/clock-widget.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable clock-widget"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable clock-widget"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/clock-widget.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -183,6 +183,6 @@ CMakeFiles/clock-widget.dir/clean:
 
 CMakeFiles/clock-widget.dir/depend: clock-widget_autogen/5RJMZTD3VX/qrc_clock.cpp
 CMakeFiles/clock-widget.dir/depend: clock-widget_autogen/timestamp
-	cd /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/CMakeFiles/clock-widget.dir/DependInfo.cmake "--color=$(COLOR)" clock-widget
+	cd /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/clock-widget.dir/DependInfo.cmake "--color=$(COLOR)" clock-widget
 .PHONY : CMakeFiles/clock-widget.dir/depend
 

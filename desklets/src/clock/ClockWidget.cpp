@@ -16,7 +16,7 @@ ClockWidget::ClockWidget(QWidget *parent)
     // FIXED: Changed from 1000ms to 16ms (~60 FPS) to allow for fluid animations
     m_timer = new QTimer(this);
     connect(m_timer, &QTimer::timeout, this, [this] { update(); });
-    m_timer->start(16);
+    m_timer->start(64);
 }
 
 QPainterPath ClockWidget::shapePath() const {

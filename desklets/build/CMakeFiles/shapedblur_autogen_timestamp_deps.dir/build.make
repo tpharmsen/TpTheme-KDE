@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets
+CMAKE_SOURCE_DIR = /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build
+CMAKE_BINARY_DIR = /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build
 
 # Utility rule file for shapedblur_autogen_timestamp_deps.
 
@@ -81,6 +81,6 @@ CMakeFiles/shapedblur_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/shapedblur_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/shapedblur_autogen_timestamp_deps.dir/depend:
-	cd /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/CMakeFiles/shapedblur_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)" shapedblur_autogen_timestamp_deps
+	cd /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/shapedblur_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)" shapedblur_autogen_timestamp_deps
 .PHONY : CMakeFiles/shapedblur_autogen_timestamp_deps.dir/depend
 

@@ -1,5 +1,5 @@
-/home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/shapedblur_autogen/2PZEZPHIBF/moc_ShapedBlurWindow.cpp: /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/src/common/ShapedBlurWindow.h \
-  /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/shapedblur_autogen/moc_predefs.h \
+/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/shapedblur_autogen/2PZEZPHIBF/moc_ShapedBlurWindow.cpp: /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/common/ShapedBlurWindow.h \
+  /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/shapedblur_autogen/moc_predefs.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \

@@ -1,8 +1,8 @@
 CMakeFiles/shapedblur.dir/shapedblur_autogen/mocs_compilation.cpp.o: \
- /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/shapedblur_autogen/mocs_compilation.cpp \
+ /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/shapedblur_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/shapedblur_autogen/2PZEZPHIBF/moc_ShapedBlurWindow.cpp \
- /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/shapedblur_autogen/2PZEZPHIBF/../../../src/common/ShapedBlurWindow.h \
+ /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/shapedblur_autogen/2PZEZPHIBF/moc_ShapedBlurWindow.cpp \
+ /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/shapedblur_autogen/2PZEZPHIBF/../../../src/common/ShapedBlurWindow.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QWidget \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qwidget.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsglobal.h \

@@ -1,7 +1,7 @@
 CMakeFiles/shapedblur.dir/src/common/ShapedBlurWindow.cpp.o: \
- /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/src/common/ShapedBlurWindow.cpp \
+ /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/common/ShapedBlurWindow.cpp \
  /usr/include/stdc-predef.h \
- /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/src/common/ShapedBlurWindow.h \
+ /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/common/ShapedBlurWindow.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QWidget \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qwidget.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsglobal.h \

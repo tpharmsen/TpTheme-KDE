@@ -3,8 +3,8 @@
     "KPlugin": {
         "Authors": [
             {
-                "Email": "vinceliuice@hotmail.com",
-                "Name": "Vince Liuice"
+                "Email": "tpharmsen@hotmail.com",
+                "Name": "Tom Harmsen"
             }
         ],
         "Category": "Plasma 6 Window Decorations",
@@ -12,9 +12,9 @@
             "aurorae"
         ],
         "EnabledByDefault": true,
-        "Name": "MacTahoe-Dark-spinoff",
-        "Description" : "MacTahoe-Dark window decorations",
-        "Id": "MacTahoe-Dark-spinoff",
+        "Name": "TpTheme",
+        "Description" : "TpTheme window decorations",
+        "Id": "TpTheme",
         "Version": "1.0",
         "License": "GPL_V3",
         "X-KDE-PluginInfo-blur": false,

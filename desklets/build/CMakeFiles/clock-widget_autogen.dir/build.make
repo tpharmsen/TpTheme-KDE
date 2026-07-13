@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets
+CMAKE_SOURCE_DIR = /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build
+CMAKE_BINARY_DIR = /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build
 
 # Utility rule file for clock-widget_autogen.
 
@@ -71,9 +71,9 @@ CMakeFiles/clock-widget_autogen: clock-widget_autogen/timestamp
 clock-widget_autogen/timestamp: /usr/lib/qt6/libexec/moc
 clock-widget_autogen/timestamp: /usr/lib/qt6/libexec/uic
 clock-widget_autogen/timestamp: CMakeFiles/clock-widget_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target clock-widget"
-	/usr/bin/cmake -E cmake_autogen /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/CMakeFiles/clock-widget_autogen.dir/AutogenInfo.json ""
-	/usr/bin/cmake -E touch /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/clock-widget_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target clock-widget"
+	/usr/bin/cmake -E cmake_autogen /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/clock-widget_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E touch /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/clock-widget_autogen/timestamp
 
 CMakeFiles/clock-widget_autogen.dir/codegen:
 .PHONY : CMakeFiles/clock-widget_autogen.dir/codegen
@@ -92,6 +92,6 @@ CMakeFiles/clock-widget_autogen.dir/clean:
 .PHONY : CMakeFiles/clock-widget_autogen.dir/clean
 
 CMakeFiles/clock-widget_autogen.dir/depend:
-	cd /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/CMakeFiles/clock-widget_autogen.dir/DependInfo.cmake "--color=$(COLOR)" clock-widget_autogen
+	cd /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/clock-widget_autogen.dir/DependInfo.cmake "--color=$(COLOR)" clock-widget_autogen
 .PHONY : CMakeFiles/clock-widget_autogen.dir/depend
 

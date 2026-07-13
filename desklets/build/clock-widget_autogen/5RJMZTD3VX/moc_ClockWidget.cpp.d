@@ -1,6 +1,6 @@
-/home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/clock-widget_autogen/5RJMZTD3VX/moc_ClockWidget.cpp: /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/src/clock/ClockWidget.h \
-  /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/clock-widget_autogen/moc_predefs.h \
-  /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/src/common/ShapedBlurWindow.h \
+/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/clock-widget_autogen/5RJMZTD3VX/moc_ClockWidget.cpp: /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/clock/ClockWidget.h \
+  /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/clock-widget_autogen/moc_predefs.h \
+  /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/common/ShapedBlurWindow.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \

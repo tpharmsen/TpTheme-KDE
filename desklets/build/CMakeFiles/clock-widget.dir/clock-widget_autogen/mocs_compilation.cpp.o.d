@@ -1,9 +1,9 @@
 CMakeFiles/clock-widget.dir/clock-widget_autogen/mocs_compilation.cpp.o: \
- /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/clock-widget_autogen/mocs_compilation.cpp \
+ /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/clock-widget_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/clock-widget_autogen/5RJMZTD3VX/moc_ClockWidget.cpp \
- /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/clock-widget_autogen/5RJMZTD3VX/../../../src/clock/ClockWidget.h \
- /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/src/common/ShapedBlurWindow.h \
+ /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/clock-widget_autogen/5RJMZTD3VX/moc_ClockWidget.cpp \
+ /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/clock-widget_autogen/5RJMZTD3VX/../../../src/clock/ClockWidget.h \
+ /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/common/ShapedBlurWindow.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QWidget \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qwidget.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsglobal.h \

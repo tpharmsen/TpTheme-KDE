@@ -9,9 +9,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "journal-widget_autogen/timestamp" "custom" "journal-widget_autogen/deps"
-  "/home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/journal-widget_autogen/mocs_compilation.cpp" "CMakeFiles/journal-widget.dir/journal-widget_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/journal-widget.dir/journal-widget_autogen/mocs_compilation.cpp.o.d"
-  "/home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/src/journal/JournalWidget.cpp" "CMakeFiles/journal-widget.dir/src/journal/JournalWidget.cpp.o" "gcc" "CMakeFiles/journal-widget.dir/src/journal/JournalWidget.cpp.o.d"
-  "/home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/src/journal/main.cpp" "CMakeFiles/journal-widget.dir/src/journal/main.cpp.o" "gcc" "CMakeFiles/journal-widget.dir/src/journal/main.cpp.o.d"
+  "/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/journal-widget_autogen/mocs_compilation.cpp" "CMakeFiles/journal-widget.dir/journal-widget_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/journal-widget.dir/journal-widget_autogen/mocs_compilation.cpp.o.d"
+  "/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/journal/JournalWidget.cpp" "CMakeFiles/journal-widget.dir/src/journal/JournalWidget.cpp.o" "gcc" "CMakeFiles/journal-widget.dir/src/journal/JournalWidget.cpp.o.d"
+  "/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/journal/main.cpp" "CMakeFiles/journal-widget.dir/src/journal/main.cpp.o" "gcc" "CMakeFiles/journal-widget.dir/src/journal/main.cpp.o.d"
   "" "journal-widget" "gcc" "CMakeFiles/journal-widget.dir/link.d"
   )
 

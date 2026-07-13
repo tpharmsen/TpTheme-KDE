@@ -1,6 +1,6 @@
-/home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/journal-widget_autogen/CO5IDNHIYX/moc_JournalWidget.cpp: /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/src/journal/JournalWidget.h \
-  /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/journal-widget_autogen/moc_predefs.h \
-  /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/src/common/ShapedBlurWindow.h \
+/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/journal-widget_autogen/CO5IDNHIYX/moc_JournalWidget.cpp: /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/journal/JournalWidget.h \
+  /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/journal-widget_autogen/moc_predefs.h \
+  /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/common/ShapedBlurWindow.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \

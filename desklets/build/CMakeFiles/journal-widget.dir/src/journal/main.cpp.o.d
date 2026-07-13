@@ -1,5 +1,5 @@
 CMakeFiles/journal-widget.dir/src/journal/main.cpp.o: \
- /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/src/journal/main.cpp \
+ /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/journal/main.cpp \
  /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QApplication \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qapplication.h \
@@ -400,8 +400,8 @@ CMakeFiles/journal-widget.dir/src/journal/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qvarlengtharray.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qalloc.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qguiapplication_platform.h \
- /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/src/journal/JournalWidget.h \
- /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/src/common/ShapedBlurWindow.h \
+ /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/journal/JournalWidget.h \
+ /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/common/ShapedBlurWindow.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QWidget \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qwidget.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qaction.h \

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets
+CMAKE_SOURCE_DIR = /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build
+CMAKE_BINARY_DIR = /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/journal-widget.dir/depend.make
@@ -72,9 +72,9 @@ include CMakeFiles/journal-widget.dir/flags.make
 journal-widget_autogen/timestamp: /usr/lib/qt6/libexec/moc
 journal-widget_autogen/timestamp: /usr/lib/qt6/libexec/uic
 journal-widget_autogen/timestamp: CMakeFiles/journal-widget.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target journal-widget"
-	/usr/bin/cmake -E cmake_autogen /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/CMakeFiles/journal-widget_autogen.dir/AutogenInfo.json ""
-	/usr/bin/cmake -E touch /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/journal-widget_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target journal-widget"
+	/usr/bin/cmake -E cmake_autogen /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/journal-widget_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E touch /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/journal-widget_autogen/timestamp
 
 CMakeFiles/journal-widget.dir/codegen:
 .PHONY : CMakeFiles/journal-widget.dir/codegen
@@ -82,44 +82,44 @@ CMakeFiles/journal-widget.dir/codegen:
 CMakeFiles/journal-widget.dir/journal-widget_autogen/mocs_compilation.cpp.o: CMakeFiles/journal-widget.dir/flags.make
 CMakeFiles/journal-widget.dir/journal-widget_autogen/mocs_compilation.cpp.o: journal-widget_autogen/mocs_compilation.cpp
 CMakeFiles/journal-widget.dir/journal-widget_autogen/mocs_compilation.cpp.o: CMakeFiles/journal-widget.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/journal-widget.dir/journal-widget_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/journal-widget.dir/journal-widget_autogen/mocs_compilation.cpp.o -MF CMakeFiles/journal-widget.dir/journal-widget_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/journal-widget.dir/journal-widget_autogen/mocs_compilation.cpp.o -c /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/journal-widget_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/journal-widget.dir/journal-widget_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/journal-widget.dir/journal-widget_autogen/mocs_compilation.cpp.o -MF CMakeFiles/journal-widget.dir/journal-widget_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/journal-widget.dir/journal-widget_autogen/mocs_compilation.cpp.o -c /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/journal-widget_autogen/mocs_compilation.cpp
 
 CMakeFiles/journal-widget.dir/journal-widget_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/journal-widget.dir/journal-widget_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/journal-widget_autogen/mocs_compilation.cpp > CMakeFiles/journal-widget.dir/journal-widget_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/journal-widget_autogen/mocs_compilation.cpp > CMakeFiles/journal-widget.dir/journal-widget_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/journal-widget.dir/journal-widget_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/journal-widget.dir/journal-widget_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/journal-widget_autogen/mocs_compilation.cpp -o CMakeFiles/journal-widget.dir/journal-widget_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/journal-widget_autogen/mocs_compilation.cpp -o CMakeFiles/journal-widget.dir/journal-widget_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/journal-widget.dir/src/journal/main.cpp.o: CMakeFiles/journal-widget.dir/flags.make
-CMakeFiles/journal-widget.dir/src/journal/main.cpp.o: /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/src/journal/main.cpp
+CMakeFiles/journal-widget.dir/src/journal/main.cpp.o: /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/journal/main.cpp
 CMakeFiles/journal-widget.dir/src/journal/main.cpp.o: CMakeFiles/journal-widget.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/journal-widget.dir/src/journal/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/journal-widget.dir/src/journal/main.cpp.o -MF CMakeFiles/journal-widget.dir/src/journal/main.cpp.o.d -o CMakeFiles/journal-widget.dir/src/journal/main.cpp.o -c /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/src/journal/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/journal-widget.dir/src/journal/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/journal-widget.dir/src/journal/main.cpp.o -MF CMakeFiles/journal-widget.dir/src/journal/main.cpp.o.d -o CMakeFiles/journal-widget.dir/src/journal/main.cpp.o -c /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/journal/main.cpp
 
 CMakeFiles/journal-widget.dir/src/journal/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/journal-widget.dir/src/journal/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/src/journal/main.cpp > CMakeFiles/journal-widget.dir/src/journal/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/journal/main.cpp > CMakeFiles/journal-widget.dir/src/journal/main.cpp.i
 
 CMakeFiles/journal-widget.dir/src/journal/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/journal-widget.dir/src/journal/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/src/journal/main.cpp -o CMakeFiles/journal-widget.dir/src/journal/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/journal/main.cpp -o CMakeFiles/journal-widget.dir/src/journal/main.cpp.s
 
 CMakeFiles/journal-widget.dir/src/journal/JournalWidget.cpp.o: CMakeFiles/journal-widget.dir/flags.make
-CMakeFiles/journal-widget.dir/src/journal/JournalWidget.cpp.o: /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/src/journal/JournalWidget.cpp
+CMakeFiles/journal-widget.dir/src/journal/JournalWidget.cpp.o: /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/journal/JournalWidget.cpp
 CMakeFiles/journal-widget.dir/src/journal/JournalWidget.cpp.o: CMakeFiles/journal-widget.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/journal-widget.dir/src/journal/JournalWidget.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/journal-widget.dir/src/journal/JournalWidget.cpp.o -MF CMakeFiles/journal-widget.dir/src/journal/JournalWidget.cpp.o.d -o CMakeFiles/journal-widget.dir/src/journal/JournalWidget.cpp.o -c /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/src/journal/JournalWidget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/journal-widget.dir/src/journal/JournalWidget.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/journal-widget.dir/src/journal/JournalWidget.cpp.o -MF CMakeFiles/journal-widget.dir/src/journal/JournalWidget.cpp.o.d -o CMakeFiles/journal-widget.dir/src/journal/JournalWidget.cpp.o -c /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/journal/JournalWidget.cpp
 
 CMakeFiles/journal-widget.dir/src/journal/JournalWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/journal-widget.dir/src/journal/JournalWidget.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/src/journal/JournalWidget.cpp > CMakeFiles/journal-widget.dir/src/journal/JournalWidget.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/journal/JournalWidget.cpp > CMakeFiles/journal-widget.dir/src/journal/JournalWidget.cpp.i
 
 CMakeFiles/journal-widget.dir/src/journal/JournalWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/journal-widget.dir/src/journal/JournalWidget.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/src/journal/JournalWidget.cpp -o CMakeFiles/journal-widget.dir/src/journal/JournalWidget.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/journal/JournalWidget.cpp -o CMakeFiles/journal-widget.dir/src/journal/JournalWidget.cpp.s
 
 # Object files for target journal-widget
 journal__widget_OBJECTS = \
@@ -145,7 +145,7 @@ journal-widget: /usr/lib/x86_64-linux-gnu/libGLX.so
 journal-widget: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 journal-widget: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.10.2
 journal-widget: CMakeFiles/journal-widget.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable journal-widget"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable journal-widget"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/journal-widget.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -157,6 +157,6 @@ CMakeFiles/journal-widget.dir/clean:
 .PHONY : CMakeFiles/journal-widget.dir/clean
 
 CMakeFiles/journal-widget.dir/depend: journal-widget_autogen/timestamp
-	cd /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build /home/tpharmsen/Documents/themes/blurwidgets/kde-shaped-blur-widgets/build/CMakeFiles/journal-widget.dir/DependInfo.cmake "--color=$(COLOR)" journal-widget
+	cd /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/journal-widget.dir/DependInfo.cmake "--color=$(COLOR)" journal-widget
 .PHONY : CMakeFiles/journal-widget.dir/depend
 
