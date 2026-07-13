@@ -8,6 +8,7 @@ shapedblur_autogen/timestamp: /home/tpharmsen/Documents/themes/TpTheme-KDE/deskl
   /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/clock/clock.qrc \
   /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/common/ShapedBlurWindow.cpp \
   /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/common/ShapedBlurWindow.h \
+  /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/journal2/sysbar.sh \
   /usr/bin/cmake \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
@@ -935,14 +936,6 @@ shapedblur_autogen/timestamp: /home/tpharmsen/Documents/themes/TpTheme-KDE/deskl
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreVersionlessAliasTargets.cmake:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qrect.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtGui/QPainterPath:
-
 /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
@@ -1074,6 +1067,10 @@ shapedblur_autogen/timestamp: /home/tpharmsen/Documents/themes/TpTheme-KDE/deskl
 /usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 
 /usr/include/stdint.h:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreTargets.cmake:
+
+/usr/include/endian.h:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicSbomCommonGenerationHelpers.cmake:
 
@@ -1285,25 +1282,29 @@ shapedblur_autogen/timestamp: /home/tpharmsen/Documents/themes/TpTheme-KDE/deskl
 
 /usr/include/c++/15/cmath:
 
+/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/journal2/sysbar.sh:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qset.h:
+
+/usr/include/alloca.h:
+
 /usr/include/c++/15/bits/stl_construct.h:
 
 /usr/include/c++/15/bits/ptr_traits.h:
 
-/usr/include/c++/15/unordered_set:
+/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
-/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/common/ShapedBlurWindow.h:
+/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:
 
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qbytearraylist.h:
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qrect.h:
 
-/usr/lib/x86_64-linux-gnu/cmake/LayerShellQt/LayerShellQtTargets-debian.cmake:
+/usr/include/x86_64-linux-gnu/qt6/QtGui/QPainterPath:
 
-/usr/include/asm-generic/int-ll64.h:
+/usr/include/wchar.h:
 
-/usr/lib/x86_64-linux-gnu/cmake/Qt6Svg/Qt6SvgAdditionalTargetInfo.cmake:
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
-/usr/include/c++/15/bits/nested_exception.h:
-
-/usr/include/c++/15/bits/memoryfwd.h:
+/usr/include/c++/15/bits/align.h:
 
 /usr/include/c++/15/tuple:
 
@@ -1321,23 +1322,25 @@ shapedblur_autogen/moc_predefs.h:
 
 /usr/include/asm-generic/bitsperlong.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
-
-/usr/include/c++/15/bits/unordered_set.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtGui/qinputmethod.h:
-
-/usr/include/alloca.h:
-
-/usr/include/wchar.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/usr/include/c++/15/bits/align.h:
-
 /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/CMakeLists.txt:
 
 /usr/include/c++/15/bits/node_handle.h:
+
+/usr/include/c++/15/unordered_set:
+
+/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/common/ShapedBlurWindow.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qbytearraylist.h:
+
+/usr/lib/x86_64-linux-gnu/cmake/LayerShellQt/LayerShellQtTargets-debian.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt6Svg/Qt6SvgAdditionalTargetInfo.cmake:
+
+/usr/include/c++/15/bits/nested_exception.h:
+
+/usr/include/c++/15/bits/memoryfwd.h:
+
+/usr/include/asm-generic/int-ll64.h:
 
 /usr/include/c++/15/tr1/ell_integral.tcc:
 
@@ -1409,6 +1412,12 @@ CMakeFiles/4.2.3/CMakeCXXCompiler.cmake:
 
 /usr/include/c++/15/bits/atomic_base.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/usr/include/c++/15/bits/unordered_set.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtGui/qinputmethod.h:
+
 /usr/include/c++/15/debug/debug.h:
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
@@ -1453,6 +1462,24 @@ CMakeFiles/4.2.3/CMakeCXXCompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qkeysequence.h:
 
+/usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake:
+
+/usr/include/c++/15/pstl/glue_numeric_defs.h:
+
+/usr/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicSbomDepHelpers.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicSbomPurlHelpers.cmake:
+
+/usr/include/c++/15/bits/stl_relops.h:
+
+/usr/include/c++/15/bits/atomic_lockfree_defines.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/QList:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicTargetHelpers.cmake:
+
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qrgba64.h:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicFindPackageHelpers.cmake:
@@ -1484,14 +1511,6 @@ CMakeFiles/4.2.3/CMakeCXXCompiler.cmake:
 /usr/include/assert.h:
 
 /usr/include/c++/15/bits/localefwd.h:
-
-/usr/include/c++/15/bits/stl_relops.h:
-
-/usr/include/c++/15/bits/atomic_lockfree_defines.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/QList:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicTargetHelpers.cmake:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatastream.h:
 
@@ -1562,16 +1581,6 @@ CMakeFiles/4.2.3/CMakeCXXCompiler.cmake:
 /usr/include/c++/15/bits/vector.tcc:
 
 /usr/include/c++/15/climits:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake:
-
-/usr/include/c++/15/pstl/glue_numeric_defs.h:
-
-/usr/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicSbomDepHelpers.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicSbomPurlHelpers.cmake:
 
 /usr/include/c++/15/bits/stl_algo.h:
 
@@ -1877,8 +1886,6 @@ CMakeFiles/4.2.3/CMakeCXXCompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qscopeguard.h:
 
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qset.h:
-
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qshareddata.h:
 
 /usr/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:
@@ -1896,10 +1903,6 @@ CMakeFiles/4.2.3/CMakeCXXCompiler.cmake:
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringalgorithms.h:
-
-/usr/include/endian.h:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreTargets.cmake:
 
 /usr/include/c++/15/bits/stl_vector.h:
 

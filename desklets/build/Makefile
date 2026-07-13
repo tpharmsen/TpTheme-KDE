@@ -201,6 +201,19 @@ journal-widget/fast:
 .PHONY : journal-widget/fast
 
 #=============================================================================
+# Target rules for targets named journal2-widget
+
+# Build rule for target.
+journal2-widget: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 journal2-widget
+.PHONY : journal2-widget
+
+# fast build rule for target.
+journal2-widget/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/journal2-widget.dir/build.make CMakeFiles/journal2-widget.dir/build
+.PHONY : journal2-widget/fast
+
+#=============================================================================
 # Target rules for targets named terminal-widget
 
 # Build rule for target.
@@ -290,6 +303,32 @@ journal-widget_autogen: cmake_check_build_system
 journal-widget_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/journal-widget_autogen.dir/build.make CMakeFiles/journal-widget_autogen.dir/build
 .PHONY : journal-widget_autogen/fast
+
+#=============================================================================
+# Target rules for targets named journal2-widget_autogen_timestamp_deps
+
+# Build rule for target.
+journal2-widget_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 journal2-widget_autogen_timestamp_deps
+.PHONY : journal2-widget_autogen_timestamp_deps
+
+# fast build rule for target.
+journal2-widget_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/journal2-widget_autogen_timestamp_deps.dir/build.make CMakeFiles/journal2-widget_autogen_timestamp_deps.dir/build
+.PHONY : journal2-widget_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named journal2-widget_autogen
+
+# Build rule for target.
+journal2-widget_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 journal2-widget_autogen
+.PHONY : journal2-widget_autogen
+
+# fast build rule for target.
+journal2-widget_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/journal2-widget_autogen.dir/build.make CMakeFiles/journal2-widget_autogen.dir/build
+.PHONY : journal2-widget_autogen/fast
 
 #=============================================================================
 # Target rules for targets named terminal-widget_autogen_timestamp_deps
@@ -388,6 +427,30 @@ journal-widget_autogen/mocs_compilation.s: journal-widget_autogen/mocs_compilati
 journal-widget_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/journal-widget.dir/build.make CMakeFiles/journal-widget.dir/journal-widget_autogen/mocs_compilation.cpp.s
 .PHONY : journal-widget_autogen/mocs_compilation.cpp.s
+
+journal2-widget_autogen/mocs_compilation.o: journal2-widget_autogen/mocs_compilation.cpp.o
+.PHONY : journal2-widget_autogen/mocs_compilation.o
+
+# target to build an object file
+journal2-widget_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/journal2-widget.dir/build.make CMakeFiles/journal2-widget.dir/journal2-widget_autogen/mocs_compilation.cpp.o
+.PHONY : journal2-widget_autogen/mocs_compilation.cpp.o
+
+journal2-widget_autogen/mocs_compilation.i: journal2-widget_autogen/mocs_compilation.cpp.i
+.PHONY : journal2-widget_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+journal2-widget_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/journal2-widget.dir/build.make CMakeFiles/journal2-widget.dir/journal2-widget_autogen/mocs_compilation.cpp.i
+.PHONY : journal2-widget_autogen/mocs_compilation.cpp.i
+
+journal2-widget_autogen/mocs_compilation.s: journal2-widget_autogen/mocs_compilation.cpp.s
+.PHONY : journal2-widget_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+journal2-widget_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/journal2-widget.dir/build.make CMakeFiles/journal2-widget.dir/journal2-widget_autogen/mocs_compilation.cpp.s
+.PHONY : journal2-widget_autogen/mocs_compilation.cpp.s
 
 shapedblur_autogen/mocs_compilation.o: shapedblur_autogen/mocs_compilation.cpp.o
 .PHONY : shapedblur_autogen/mocs_compilation.o
@@ -533,6 +596,54 @@ src/journal/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/journal-widget.dir/build.make CMakeFiles/journal-widget.dir/src/journal/main.cpp.s
 .PHONY : src/journal/main.cpp.s
 
+src/journal2/Journal2Widget.o: src/journal2/Journal2Widget.cpp.o
+.PHONY : src/journal2/Journal2Widget.o
+
+# target to build an object file
+src/journal2/Journal2Widget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/journal2-widget.dir/build.make CMakeFiles/journal2-widget.dir/src/journal2/Journal2Widget.cpp.o
+.PHONY : src/journal2/Journal2Widget.cpp.o
+
+src/journal2/Journal2Widget.i: src/journal2/Journal2Widget.cpp.i
+.PHONY : src/journal2/Journal2Widget.i
+
+# target to preprocess a source file
+src/journal2/Journal2Widget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/journal2-widget.dir/build.make CMakeFiles/journal2-widget.dir/src/journal2/Journal2Widget.cpp.i
+.PHONY : src/journal2/Journal2Widget.cpp.i
+
+src/journal2/Journal2Widget.s: src/journal2/Journal2Widget.cpp.s
+.PHONY : src/journal2/Journal2Widget.s
+
+# target to generate assembly for a file
+src/journal2/Journal2Widget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/journal2-widget.dir/build.make CMakeFiles/journal2-widget.dir/src/journal2/Journal2Widget.cpp.s
+.PHONY : src/journal2/Journal2Widget.cpp.s
+
+src/journal2/main.o: src/journal2/main.cpp.o
+.PHONY : src/journal2/main.o
+
+# target to build an object file
+src/journal2/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/journal2-widget.dir/build.make CMakeFiles/journal2-widget.dir/src/journal2/main.cpp.o
+.PHONY : src/journal2/main.cpp.o
+
+src/journal2/main.i: src/journal2/main.cpp.i
+.PHONY : src/journal2/main.i
+
+# target to preprocess a source file
+src/journal2/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/journal2-widget.dir/build.make CMakeFiles/journal2-widget.dir/src/journal2/main.cpp.i
+.PHONY : src/journal2/main.cpp.i
+
+src/journal2/main.s: src/journal2/main.cpp.s
+.PHONY : src/journal2/main.s
+
+# target to generate assembly for a file
+src/journal2/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/journal2-widget.dir/build.make CMakeFiles/journal2-widget.dir/src/journal2/main.cpp.s
+.PHONY : src/journal2/main.cpp.s
+
 src/terminal/TerminalWidget.o: src/terminal/TerminalWidget.cpp.o
 .PHONY : src/terminal/TerminalWidget.o
 
@@ -621,12 +732,15 @@ help:
 	@echo "... clock-widget_autogen_timestamp_deps"
 	@echo "... journal-widget_autogen"
 	@echo "... journal-widget_autogen_timestamp_deps"
+	@echo "... journal2-widget_autogen"
+	@echo "... journal2-widget_autogen_timestamp_deps"
 	@echo "... shapedblur_autogen"
 	@echo "... shapedblur_autogen_timestamp_deps"
 	@echo "... terminal-widget_autogen"
 	@echo "... terminal-widget_autogen_timestamp_deps"
 	@echo "... clock-widget"
 	@echo "... journal-widget"
+	@echo "... journal2-widget"
 	@echo "... shapedblur"
 	@echo "... terminal-widget"
 	@echo "... clock-widget_autogen/5RJMZTD3VX/qrc_clock.o"
@@ -638,6 +752,9 @@ help:
 	@echo "... journal-widget_autogen/mocs_compilation.o"
 	@echo "... journal-widget_autogen/mocs_compilation.i"
 	@echo "... journal-widget_autogen/mocs_compilation.s"
+	@echo "... journal2-widget_autogen/mocs_compilation.o"
+	@echo "... journal2-widget_autogen/mocs_compilation.i"
+	@echo "... journal2-widget_autogen/mocs_compilation.s"
 	@echo "... shapedblur_autogen/mocs_compilation.o"
 	@echo "... shapedblur_autogen/mocs_compilation.i"
 	@echo "... shapedblur_autogen/mocs_compilation.s"
@@ -656,6 +773,12 @@ help:
 	@echo "... src/journal/main.o"
 	@echo "... src/journal/main.i"
 	@echo "... src/journal/main.s"
+	@echo "... src/journal2/Journal2Widget.o"
+	@echo "... src/journal2/Journal2Widget.i"
+	@echo "... src/journal2/Journal2Widget.s"
+	@echo "... src/journal2/main.o"
+	@echo "... src/journal2/main.i"
+	@echo "... src/journal2/main.s"
 	@echo "... src/terminal/TerminalWidget.o"
 	@echo "... src/terminal/TerminalWidget.i"
 	@echo "... src/terminal/TerminalWidget.s"

@@ -9,6 +9,7 @@
  /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/clock/clock.qrc
  /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/common/ShapedBlurWindow.cpp
  /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/common/ShapedBlurWindow.h
+ /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/journal2/sysbar.sh
  /usr/bin/cmake
  /usr/include/alloca.h
  /usr/include/asm-generic/bitsperlong.h

@@ -382,6 +382,7 @@
 		"/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake",
 		"/usr/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake",
 		"/usr/share/cmake-4.2/Modules/FindPackageMessage.cmake",
+		"/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/journal2/sysbar.sh",
 		"/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/clock/clock.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets",

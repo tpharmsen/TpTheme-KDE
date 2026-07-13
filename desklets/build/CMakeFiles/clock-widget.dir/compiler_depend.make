@@ -10,6 +10,7 @@ clock-widget_autogen/timestamp: /home/tpharmsen/Documents/themes/TpTheme-KDE/des
   /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/clock/clock.qrc \
   /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/clock/main.cpp \
   /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/common/ShapedBlurWindow.h \
+  /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/journal2/sysbar.sh \
   /usr/bin/cmake \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
@@ -954,13 +955,15 @@ clock-widget_autogen/timestamp: /home/tpharmsen/Documents/themes/TpTheme-KDE/des
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake:
 
-/usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake:
+/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicWindowsHelpers.cmake:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+/usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
 /usr/include/c++/15/concepts:
 
@@ -1220,6 +1223,8 @@ clock-widget_autogen/timestamp: /home/tpharmsen/Documents/themes/TpTheme-KDE/des
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qvectornd.h:
 
+/usr/include/c++/15/ctime:
+
 /usr/include/c++/15/bits/ios_base.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
@@ -1246,9 +1251,9 @@ clock-widget_autogen/timestamp: /home/tpharmsen/Documents/themes/TpTheme-KDE/des
 
 /usr/include/c++/15/bit:
 
-/usr/include/asm-generic/posix_types.h:
-
 /usr/include/c++/15/bits/allocator.h:
+
+/usr/include/asm-generic/posix_types.h:
 
 /usr/include/c++/15/initializer_list:
 
@@ -1300,17 +1305,21 @@ clock-widget_autogen/timestamp: /home/tpharmsen/Documents/themes/TpTheme-KDE/des
 
 /usr/include/c++/15/bits/atomic_base.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+/usr/include/c++/15/tr1/ell_integral.tcc:
 
-/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:
+/usr/include/stdc-predef.h:
 
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qrect.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtGui/QPainterPath:
+CMakeFiles/4.2.3/CMakeCXXCompiler.cmake:
 
 /usr/include/c++/15/tuple:
 
 /usr/include/c++/15/array:
+
+/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/journal2/sysbar.sh:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qset.h:
+
+/usr/include/alloca.h:
 
 /usr/include/c++/15/bits/stl_construct.h:
 
@@ -1338,21 +1347,19 @@ clock-widget_autogen/timestamp: /home/tpharmsen/Documents/themes/TpTheme-KDE/des
 
 /usr/include/c++/15/bits/node_handle.h:
 
+/usr/include/wchar.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/c++/15/bits/align.h:
+
 /usr/include/c++/15/iterator:
 
 /usr/include/c++/15/bits/hashtable.h:
 
 clock-widget_autogen/moc_predefs.h:
 
-/usr/include/c++/15/tr1/ell_integral.tcc:
-
-/usr/include/stdc-predef.h:
-
 /usr/include/c++/15/bits/stl_tempbuf.h:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake:
-
-/usr/include/asm-generic/errno-base.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
@@ -1360,13 +1367,17 @@ clock-widget_autogen/moc_predefs.h:
 
 /usr/include/asm-generic/bitsperlong.h:
 
-/usr/include/alloca.h:
+/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake:
 
-/usr/include/wchar.h:
+/usr/include/asm-generic/errno-base.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
-/usr/include/c++/15/bits/align.h:
+/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qrect.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtGui/QPainterPath:
 
 /usr/share/cmake-4.2/Modules/Compiler/Clang-DetermineCompilerInternal.cmake:
 
@@ -1406,8 +1417,6 @@ clock-widget_autogen/moc_predefs.h:
 
 /usr/include/c++/15/bits/allocated_ptr.h:
 
-/usr/include/c++/15/ctime:
-
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
@@ -1425,8 +1434,6 @@ clock-widget_autogen/moc_predefs.h:
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
 /usr/include/c++/15/bits/algorithmfwd.h:
-
-CMakeFiles/4.2.3/CMakeCXXCompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
@@ -1912,8 +1919,6 @@ CMakeFiles/4.2.3/CMakeCXXCompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qscopeguard.h:
 
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qset.h:
-
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qshareddata.h:
 
 /usr/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:
@@ -2047,8 +2052,6 @@ CMakeFiles/4.2.3/CMakeSystem.cmake:
 /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6ConfigVersion.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicWindowsHelpers.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfigExtras.cmake:
 

@@ -7,6 +7,7 @@ terminal-widget_autogen/timestamp: /home/tpharmsen/Documents/themes/TpTheme-KDE/
   terminal-widget_autogen/moc_predefs.h \
   /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/clock/clock.qrc \
   /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/common/ShapedBlurWindow.h \
+  /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/journal2/sysbar.sh \
   /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/terminal/TerminalWidget.cpp \
   /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/terminal/TerminalWidget.h \
   /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/terminal/main.cpp \
@@ -939,13 +940,15 @@ terminal-widget_autogen/timestamp: /home/tpharmsen/Documents/themes/TpTheme-KDE/
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreVersionlessAliasTargets.cmake:
 
-/usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake:
+/usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreMacros.cmake:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+/usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
 /usr/include/c++/15/concepts:
 
@@ -1197,6 +1200,8 @@ terminal-widget_autogen/timestamp: /home/tpharmsen/Documents/themes/TpTheme-KDE/
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qvectornd.h:
 
+/usr/include/c++/15/ctime:
+
 /usr/include/c++/15/bits/ios_base.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
@@ -1219,9 +1224,9 @@ terminal-widget_autogen/timestamp: /home/tpharmsen/Documents/themes/TpTheme-KDE/
 
 /usr/include/c++/15/bit:
 
-/usr/include/asm-generic/posix_types.h:
-
 /usr/include/c++/15/bits/allocator.h:
+
+/usr/include/asm-generic/posix_types.h:
 
 /usr/include/c++/15/initializer_list:
 
@@ -1251,13 +1256,11 @@ terminal-widget_autogen/timestamp: /home/tpharmsen/Documents/themes/TpTheme-KDE/
 
 /usr/include/c++/15/bits/atomic_base.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+/usr/include/c++/15/tr1/ell_integral.tcc:
 
-/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:
+/usr/include/stdc-predef.h:
 
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qrect.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtGui/QPainterPath:
+CMakeFiles/4.2.3/CMakeCXXCompiler.cmake:
 
 /usr/include/c++/15/tuple:
 
@@ -1291,7 +1294,9 @@ terminal-widget_autogen/timestamp: /home/tpharmsen/Documents/themes/TpTheme-KDE/
 
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
 
-/usr/include/c++/15/ctime:
+/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/journal2/sysbar.sh:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qset.h:
 
 /usr/include/alloca.h:
 
@@ -1321,15 +1326,23 @@ terminal-widget_autogen/timestamp: /home/tpharmsen/Documents/themes/TpTheme-KDE/
 
 /usr/include/c++/15/bits/shared_ptr_base.h:
 
-/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake:
-
-/usr/include/asm-generic/errno-base.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake:
 
 /usr/include/asm-generic/bitsperlong.h:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qrect.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtGui/QPainterPath:
 
 /usr/include/strings.h:
 
@@ -1354,10 +1367,6 @@ terminal-widget_autogen/timestamp: /home/tpharmsen/Documents/themes/TpTheme-KDE/
 /usr/include/c++/15/bits/memoryfwd.h:
 
 /usr/include/asm-generic/int-ll64.h:
-
-/usr/include/c++/15/tr1/ell_integral.tcc:
-
-/usr/include/stdc-predef.h:
 
 /usr/include/c++/15/bits/stl_tempbuf.h:
 
@@ -1409,8 +1418,6 @@ terminal-widget_autogen/timestamp: /home/tpharmsen/Documents/themes/TpTheme-KDE/
 
 /usr/include/c++/15/bits/algorithmfwd.h:
 
-CMakeFiles/4.2.3/CMakeCXXCompiler.cmake:
-
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
 /usr/include/c++/15/bits/unordered_set.h:
@@ -1456,6 +1463,24 @@ CMakeFiles/4.2.3/CMakeCXXCompiler.cmake:
 /usr/share/cmake-4.2/Modules/CheckFunctionExists.cmake:
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qkeysequence.h:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake:
+
+/usr/include/c++/15/pstl/glue_numeric_defs.h:
+
+/usr/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicSbomDepHelpers.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicSbomPurlHelpers.cmake:
+
+/usr/include/c++/15/bits/stl_relops.h:
+
+/usr/include/c++/15/bits/atomic_lockfree_defines.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/QList:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicTargetHelpers.cmake:
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qrgba64.h:
 
@@ -1508,14 +1533,6 @@ CMakeFiles/4.2.3/CMakeCXXCompiler.cmake:
 /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6ConfigExtras.cmake:
 
 /usr/include/c++/15/bits/localefwd.h:
-
-/usr/include/c++/15/bits/stl_relops.h:
-
-/usr/include/c++/15/bits/atomic_lockfree_defines.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/QList:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicTargetHelpers.cmake:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatastream.h:
 
@@ -1586,16 +1603,6 @@ CMakeFiles/4.2.3/CMakeCXXCompiler.cmake:
 /usr/include/c++/15/bits/vector.tcc:
 
 /usr/include/c++/15/climits:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake:
-
-/usr/include/c++/15/pstl/glue_numeric_defs.h:
-
-/usr/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicSbomDepHelpers.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicSbomPurlHelpers.cmake:
 
 /usr/include/c++/15/bits/stl_algo.h:
 
@@ -1759,8 +1766,6 @@ terminal-widget_autogen/moc_predefs.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qcheckedint_impl.h:
 
-/usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreMacros.cmake:
-
 /usr/share/cmake-4.2/Modules/Compiler/Diab-DetermineCompiler.cmake:
 
 /usr/share/cmake-4.2/Modules/CMakeSystem.cmake.in:
@@ -1886,8 +1891,6 @@ terminal-widget_autogen/moc_predefs.h:
 /usr/include/c++/15/string_view:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qscopeguard.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qset.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qshareddata.h:
 

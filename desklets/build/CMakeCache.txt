@@ -173,7 +173,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=kde-shaped-blur-widgets
+CMAKE_PROJECT_NAME:STATIC=desklets
 
 //Value Computed by CMake
 CMAKE_PROJECT_SPDX_LICENSE:STATIC=
@@ -779,13 +779,13 @@ X11_xkbfile_INCLUDE_PATH:PATH=X11_xkbfile_INCLUDE_PATH-NOTFOUND
 X11_xkbfile_LIB:FILEPATH=X11_xkbfile_LIB-NOTFOUND
 
 //Value Computed by CMake
-kde-shaped-blur-widgets_BINARY_DIR:STATIC=/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build
+desklets_BINARY_DIR:STATIC=/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build
 
 //Value Computed by CMake
-kde-shaped-blur-widgets_IS_TOP_LEVEL:STATIC=ON
+desklets_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-kde-shaped-blur-widgets_SOURCE_DIR:STATIC=/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets
+desklets_SOURCE_DIR:STATIC=/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets
 
 //Path to a library.
 pkgcfg_lib_PKG_FONTCONFIG_fontconfig:FILEPATH=/usr/lib/x86_64-linux-gnu/libfontconfig.so

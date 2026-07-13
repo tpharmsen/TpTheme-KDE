@@ -382,6 +382,7 @@
 		"/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake",
 		"/usr/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake",
 		"/usr/share/cmake-4.2/Modules/FindPackageMessage.cmake",
+		"/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/journal2/sysbar.sh",
 		"/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/clock/clock.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets",
@@ -453,6 +454,7 @@
 		"/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/clock-widget_autogen/5RJMZTD3VX/qrc_clock.cpp",
 		"/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/clock-widget_autogen/mocs_compilation.cpp",
 		"/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/journal-widget_autogen/mocs_compilation.cpp",
+		"/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/journal2-widget_autogen/mocs_compilation.cpp",
 		"/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/shapedblur_autogen/mocs_compilation.cpp"
 	],
 	"MULTI_CONFIG" : false,
@@ -483,6 +485,7 @@
 		"/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/clock-widget_autogen/5RJMZTD3VX/qrc_clock.cpp",
 		"/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/clock-widget_autogen/mocs_compilation.cpp",
 		"/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/journal-widget_autogen/mocs_compilation.cpp",
+		"/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/journal2-widget_autogen/mocs_compilation.cpp",
 		"/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/shapedblur_autogen/mocs_compilation.cpp"
 	],
 	"UIC_UI_FILES" : [],

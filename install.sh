@@ -45,15 +45,28 @@ cat > "$AUTOSTART_DIR/clock-widget.desktop" <<EOF
 [Desktop Entry]
 Type=Application
 Name=Clock Widget
-ExecStartPre=/bin/sleep 5
 Exec=$HOME/Documents/themes/TpTheme-KDE/desklets/build/clock-widget
 Hidden=false
 Enabled=true
 X-KDE-Autostart-Phase=Desktop
 EOF
 
+cat > "$AUTOSTART_DIR/journal2-widget.desktop" <<EOF
+[Desktop Entry]
+Type=Application
+Name=Journal2 Widget
+Exec=$HOME/Documents/themes/TpTheme-KDE/desklets/build/journal2-widget
+Hidden=false
+Enabled=true
+X-KDE-Autostart-Phase=Desktop
+EOF
+
+
+
 echo "Created:"
 echo "  $AUTOSTART_DIR/journal-widget.desktop"
 echo "  $AUTOSTART_DIR/clock-widget.desktop"
-
+echo "  $AUTOSTART_DIR/journal2-widget.desktop"
 echo "Installation complete!"
+
+

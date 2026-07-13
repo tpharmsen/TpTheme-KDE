@@ -10,6 +10,7 @@ journal-widget_autogen/timestamp: /home/tpharmsen/Documents/themes/TpTheme-KDE/d
   /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/journal/JournalWidget.cpp \
   /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/journal/JournalWidget.h \
   /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/journal/main.cpp \
+  /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/journal2/sysbar.sh \
   /usr/bin/cmake \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
@@ -960,11 +961,13 @@ journal-widget_autogen/timestamp: /home/tpharmsen/Documents/themes/TpTheme-KDE/d
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicWindowsHelpers.cmake:
 
+/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicTargetHelpers.cmake:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
 /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
 /usr/include/c++/15/concepts:
 
@@ -1220,6 +1223,8 @@ journal-widget_autogen/timestamp: /home/tpharmsen/Documents/themes/TpTheme-KDE/d
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qvectornd.h:
 
+/usr/include/c++/15/ctime:
+
 /usr/include/c++/15/bits/ios_base.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
@@ -1246,9 +1251,9 @@ journal-widget_autogen/timestamp: /home/tpharmsen/Documents/themes/TpTheme-KDE/d
 
 /usr/include/c++/15/bit:
 
-/usr/include/asm-generic/posix_types.h:
-
 /usr/include/c++/15/bits/allocator.h:
+
+/usr/include/asm-generic/posix_types.h:
 
 /usr/include/c++/15/initializer_list:
 
@@ -1308,29 +1313,17 @@ journal-widget_autogen/timestamp: /home/tpharmsen/Documents/themes/TpTheme-KDE/d
 
 /usr/include/c++/15/bits/atomic_base.h:
 
-/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/journal/JournalWidget.cpp:
-
-/usr/include/c++/15/bits/uniform_int_dist.h:
-
-/usr/include/c++/15/bits/shared_ptr_atomic.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreapplication.h:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt6/FindWrapOpenGL.cmake:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qrect.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtGui/QPainterPath:
-
 /usr/share/cmake-4.2/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake:
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextformat.h:
 
 /usr/include/c++/15/array:
+
+/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/journal2/sysbar.sh:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qset.h:
+
+/usr/include/alloca.h:
 
 /usr/include/c++/15/ext/type_traits.h:
 
@@ -1352,23 +1345,15 @@ journal-widget_autogen/timestamp: /home/tpharmsen/Documents/themes/TpTheme-KDE/d
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qforeach.h:
 
+/usr/include/c++/15/tr1/ell_integral.tcc:
+
+/usr/include/stdc-predef.h:
+
+CMakeFiles/4.2.3/CMakeCXXCompiler.cmake:
+
 /usr/include/c++/15/bits/stl_construct.h:
 
 /usr/include/c++/15/bits/ptr_traits.h:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake:
-
-/usr/include/asm-generic/errno-base.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/QProcess:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake:
-
-/usr/include/asm-generic/bitsperlong.h:
-
-/usr/include/alloca.h:
 
 /usr/include/wchar.h:
 
@@ -1381,6 +1366,36 @@ journal-widget_autogen/moc_predefs.h:
 /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/CMakeLists.txt:
 
 /usr/include/c++/15/bits/node_handle.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake:
+
+/usr/include/asm-generic/bitsperlong.h:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/QProcess:
+
+/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/src/journal/JournalWidget.cpp:
+
+/usr/include/c++/15/bits/uniform_int_dist.h:
+
+/usr/include/c++/15/bits/shared_ptr_atomic.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreapplication.h:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt6/FindWrapOpenGL.cmake:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qrect.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtGui/QPainterPath:
 
 /usr/include/c++/15/unordered_set:
 
@@ -1397,10 +1412,6 @@ journal-widget_autogen/moc_predefs.h:
 /usr/include/c++/15/bits/memoryfwd.h:
 
 /usr/include/asm-generic/int-ll64.h:
-
-/usr/include/c++/15/tr1/ell_integral.tcc:
-
-/usr/include/stdc-predef.h:
 
 /usr/include/c++/15/bits/stl_tempbuf.h:
 
@@ -1438,8 +1449,6 @@ journal-widget_autogen/moc_predefs.h:
 
 /usr/include/c++/15/bits/allocated_ptr.h:
 
-/usr/include/c++/15/ctime:
-
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
@@ -1457,8 +1466,6 @@ journal-widget_autogen/moc_predefs.h:
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
 /usr/include/c++/15/bits/algorithmfwd.h:
-
-CMakeFiles/4.2.3/CMakeCXXCompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
@@ -1514,6 +1521,22 @@ CMakeFiles/4.2.3/CMakeCXXCompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qkeysequence.h:
 
+/usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake:
+
+/usr/include/c++/15/pstl/glue_numeric_defs.h:
+
+/usr/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicSbomDepHelpers.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicSbomPurlHelpers.cmake:
+
+/usr/include/c++/15/bits/stl_relops.h:
+
+/usr/include/c++/15/bits/atomic_lockfree_defines.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/QList:
+
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qcontainertools_impl.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qmargins.h:
@@ -1557,14 +1580,6 @@ CMakeFiles/4.2.3/CMakeCXXCompiler.cmake:
 /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6ConfigExtras.cmake:
 
 /usr/include/c++/15/bits/localefwd.h:
-
-/usr/include/c++/15/bits/stl_relops.h:
-
-/usr/include/c++/15/bits/atomic_lockfree_defines.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/QList:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicTargetHelpers.cmake:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatastream.h:
 
@@ -1631,16 +1646,6 @@ CMakeFiles/4.2.3/CMakeCXXCompiler.cmake:
 /usr/include/c++/15/bits/vector.tcc:
 
 /usr/include/c++/15/climits:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake:
-
-/usr/include/c++/15/pstl/glue_numeric_defs.h:
-
-/usr/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicSbomDepHelpers.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicSbomPurlHelpers.cmake:
 
 /usr/include/c++/15/bits/stl_algo.h:
 
@@ -1933,8 +1938,6 @@ CMakeFiles/4.2.3/CMakeSystem.cmake:
 /usr/include/c++/15/string_view:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qscopeguard.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qset.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qshareddata.h:
 

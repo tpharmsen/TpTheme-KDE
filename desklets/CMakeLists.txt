@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(kde-shaped-blur-widgets LANGUAGES CXX)
+project(desklets LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -73,6 +73,21 @@ add_executable(journal-widget
 )
 target_link_libraries(journal-widget PRIVATE shapedblur)
 
+
+
+# --- journalctl tail widget 2---
+
+configure_file(${CMAKE_CURRENT_SOURCE_DIR}/src/journal2/sysbar.sh
+               ${CMAKE_CURRENT_BINARY_DIR}/sysbar.sh
+               COPYONLY)
+
+add_executable(journal2-widget
+    src/journal2/main.cpp
+    src/journal2/Journal2Widget.cpp
+    src/journal2/Journal2Widget.h
+)
+target_link_libraries(journal2-widget PRIVATE shapedblur)
+
 # --- terminal widget ---
 if(QTERMWIDGET_FOUND)
     add_executable(terminal-widget
@@ -86,7 +101,7 @@ if(QTERMWIDGET_FOUND)
     target_compile_options(terminal-widget PRIVATE ${QTERMWIDGET_CFLAGS_OTHER})
 endif()
 
-install(TARGETS clock-widget journal-widget RUNTIME DESTINATION bin)
+install(TARGETS clock-widget journal-widget journal2-widget RUNTIME DESTINATION bin)
 if(TARGET terminal-widget)
     install(TARGETS terminal-widget RUNTIME DESTINATION bin)
 endif()

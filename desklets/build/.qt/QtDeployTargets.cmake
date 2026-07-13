@@ -4,5 +4,7 @@ set(__QT_DEPLOY_TARGET_clock-widget_FILE /home/tpharmsen/Documents/themes/TpThem
 set(__QT_DEPLOY_TARGET_clock-widget_TYPE EXECUTABLE)
 set(__QT_DEPLOY_TARGET_journal-widget_FILE /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/journal-widget)
 set(__QT_DEPLOY_TARGET_journal-widget_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_journal2-widget_FILE /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/journal2-widget)
+set(__QT_DEPLOY_TARGET_journal2-widget_TYPE EXECUTABLE)
 set(__QT_DEPLOY_TARGET_terminal-widget_FILE /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/terminal-widget)
 set(__QT_DEPLOY_TARGET_terminal-widget_TYPE EXECUTABLE)
