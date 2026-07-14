@@ -445,6 +445,15 @@ CMakeFiles/clock-widget.dir/clock-widget_autogen/mocs_compilation.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qxmlstream.h \
  /usr/include/x86_64-linux-gnu/qt6/QtSvg/qtsvgglobal.h \
  /usr/include/x86_64-linux-gnu/qt6/QtSvg/qtsvgexports.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/QPixmap \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qpixmap.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QHash \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qhash.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QString \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qstring.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QPointF \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qpoint.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QRectF \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qtmochelpers.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qtmocconstants.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/q20algorithm.h

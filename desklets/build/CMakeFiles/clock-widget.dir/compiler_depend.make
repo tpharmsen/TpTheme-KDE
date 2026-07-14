@@ -286,11 +286,15 @@ clock-widget_autogen/timestamp: /home/tpharmsen/Documents/themes/TpTheme-KDE/des
   /usr/include/x86_64-linux-gnu/c++/15/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QHash \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QList \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QPointF \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QRect \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QRectF \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QSize \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QSizeF \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QString \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QTimer \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/q17memory.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/q20functional.h \
@@ -434,6 +438,7 @@ clock-widget_autogen/timestamp: /home/tpharmsen/Documents/themes/TpTheme-KDE/des
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qyieldcpu.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/QPaintEvent \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/QPainterPath \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/QPixmap \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/QTransform \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qaction.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qbitmap.h \
@@ -957,6 +962,8 @@ clock-widget_autogen/timestamp: /home/tpharmsen/Documents/themes/TpTheme-KDE/des
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicWindowsHelpers.cmake:
 
+/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicTargetHelpers.cmake:
+
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
@@ -1026,6 +1033,8 @@ clock-widget_autogen/timestamp: /home/tpharmsen/Documents/themes/TpTheme-KDE/des
 /usr/include/c++/15/bits/exception.h:
 
 /usr/include/stdlib.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtGui/QPixmap:
 
 /usr/include/sched.h:
 
@@ -1505,8 +1514,6 @@ clock-widget_autogen/moc_predefs.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/QList:
 
-/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicTargetHelpers.cmake:
-
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qrgba64.h:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicFindPackageHelpers.cmake:
@@ -1615,6 +1622,10 @@ clock-widget_autogen/moc_predefs.h:
 
 /usr/include/c++/15/bits/concept_check.h:
 
+/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicWalkLibsHelpers.cmake:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/q20memory.h:
+
 /usr/include/c++/15/bits/version.h:
 
 /usr/include/c++/15/bits/utility.h:
@@ -1689,6 +1700,8 @@ clock-widget_autogen/moc_predefs.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
+/usr/include/x86_64-linux-gnu/qt6/QtCore/QHash:
+
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
 
 /usr/include/c++/15/cstdio:
@@ -1722,6 +1735,10 @@ clock-widget_autogen/moc_predefs.h:
 /usr/share/cmake-4.2/Modules/CMakeCXXCompiler.cmake.in:
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/QTransform:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/QPointF:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/QRectF:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/QSize:
 
@@ -1887,6 +1904,12 @@ clock-widget_autogen/moc_predefs.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qmetacontainer.h:
 
+/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicTestHelpers.cmake:
+
+CMakeFiles/4.2.3/CMakeSystem.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicSbomQtEntityHelpers.cmake:
+
 /usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qmetatype.h:
@@ -2023,12 +2046,6 @@ clock-widget_autogen/moc_predefs.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qguiapplication_platform.h:
 
-CMakeFiles/4.2.3/CMakeSystem.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicSbomQtEntityHelpers.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicTestHelpers.cmake:
-
 /usr/share/cmake-4.2/Modules/Platform/Linker/GNU.cmake:
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qicon.h:
@@ -2036,6 +2053,10 @@ CMakeFiles/4.2.3/CMakeSystem.cmake:
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qinputdevice.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qpixelformat.h:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicToolHelpers.cmake:
+
+/usr/include/x86_64-linux-gnu/qt6/QtGui/qpointingdevice.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qpolygon.h:
 
@@ -2074,6 +2095,8 @@ CMakeFiles/4.2.3/CMakeSystem.cmake:
 /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6VersionlessAliasTargets.cmake:
 
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgets-config.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/QString:
 
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qwidget.h:
 
@@ -2172,11 +2195,3 @@ CMakeFiles/4.2.3/CMakeSystem.cmake:
 /usr/include/x86_64-linux-gnu/c++/15/bits/c++locale.h:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicSbomOpsHelpers.cmake:
-
-/usr/include/x86_64-linux-gnu/qt6/QtGui/qpointingdevice.h:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicToolHelpers.cmake:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/q20memory.h:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicWalkLibsHelpers.cmake:
