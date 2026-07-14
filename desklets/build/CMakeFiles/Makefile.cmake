@@ -219,8 +219,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-4.2/Modules/Compiler/XL-CXX-DetermineCompiler.cmake"
   "/usr/share/cmake-4.2/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake"
   "/usr/share/cmake-4.2/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake"
-  "/usr/share/cmake-4.2/Modules/FindFontconfig.cmake"
-  "/usr/share/cmake-4.2/Modules/FindFreetype.cmake"
   "/usr/share/cmake-4.2/Modules/FindOpenGL.cmake"
   "/usr/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake"
   "/usr/share/cmake-4.2/Modules/FindPackageMessage.cmake"
@@ -249,7 +247,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-4.2/Modules/Platform/Linux-Initialize.cmake"
   "/usr/share/cmake-4.2/Modules/Platform/Linux.cmake"
   "/usr/share/cmake-4.2/Modules/Platform/UnixPaths.cmake"
-  "/usr/share/cmake-4.2/Modules/SelectLibraryConfigurations.cmake"
   )
 
 # The corresponding makefile is:
@@ -270,7 +267,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/clock-widget_autogen.dir/AutoRcc_clock_5RJMZTD3VX_Info.json"
   "CMakeFiles/journal-widget_autogen.dir/AutogenInfo.json"
   "CMakeFiles/journal2-widget_autogen.dir/AutogenInfo.json"
-  "CMakeFiles/terminal-widget_autogen.dir/AutogenInfo.json"
   ".qt/QtDeploySupport.cmake"
   ".qt/QtDeployTargets.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
@@ -282,7 +278,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/clock-widget.dir/DependInfo.cmake"
   "CMakeFiles/journal-widget.dir/DependInfo.cmake"
   "CMakeFiles/journal2-widget.dir/DependInfo.cmake"
-  "CMakeFiles/terminal-widget.dir/DependInfo.cmake"
   "CMakeFiles/shapedblur_autogen_timestamp_deps.dir/DependInfo.cmake"
   "CMakeFiles/shapedblur_autogen.dir/DependInfo.cmake"
   "CMakeFiles/clock-widget_autogen_timestamp_deps.dir/DependInfo.cmake"
@@ -291,6 +286,4 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/journal-widget_autogen.dir/DependInfo.cmake"
   "CMakeFiles/journal2-widget_autogen_timestamp_deps.dir/DependInfo.cmake"
   "CMakeFiles/journal2-widget_autogen.dir/DependInfo.cmake"
-  "CMakeFiles/terminal-widget_autogen_timestamp_deps.dir/DependInfo.cmake"
-  "CMakeFiles/terminal-widget_autogen.dir/DependInfo.cmake"
   )
