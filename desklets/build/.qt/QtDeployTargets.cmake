@@ -1,8 +1,0 @@
-set(__QT_DEPLOY_TARGET_shapedblur_FILE /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/libshapedblur.a)
-set(__QT_DEPLOY_TARGET_shapedblur_TYPE STATIC_LIBRARY)
-set(__QT_DEPLOY_TARGET_clock-widget_FILE /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/clock-widget)
-set(__QT_DEPLOY_TARGET_clock-widget_TYPE EXECUTABLE)
-set(__QT_DEPLOY_TARGET_journal-widget_FILE /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/journal-widget)
-set(__QT_DEPLOY_TARGET_journal-widget_TYPE EXECUTABLE)
-set(__QT_DEPLOY_TARGET_journal2-widget_FILE /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/journal2-widget)
-set(__QT_DEPLOY_TARGET_journal2-widget_TYPE EXECUTABLE)

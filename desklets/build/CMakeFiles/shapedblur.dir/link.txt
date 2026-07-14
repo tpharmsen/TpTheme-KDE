@@ -1,2 +1,0 @@
-/usr/bin/ar qc libshapedblur.a CMakeFiles/shapedblur.dir/shapedblur_autogen/mocs_compilation.cpp.o CMakeFiles/shapedblur.dir/src/common/ShapedBlurWindow.cpp.o
-/usr/bin/ranlib libshapedblur.a
