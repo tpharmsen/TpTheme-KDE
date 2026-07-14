@@ -5,7 +5,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # Destination directories
 AURORAE_DIR="$HOME/.local/share/aurorae/themes"
-KVANTUM_DIR="$HOME/.local/share/Kvantum"
+KVANTUM_DIR="$HOME/.config/Kvantum"
 PLASMA_DIR="$HOME/.local/share/plasma/desktoptheme"
 ICONS_DIR="$HOME/.icons"
 
@@ -13,9 +13,8 @@ echo "Installing themes..."
 
 rm -rf "$AURORAE_DIR/TpTheme/"
 cp -r "$SCRIPT_DIR/TpTheme-aurorae/" "$AURORAE_DIR/TpTheme/"
-rm -rf "$KVANTUM_DIR"
-mkdir -p "$KVANTUM_DIR"
-cp -r "$SCRIPT_DIR/TpTheme-kvantum/." "$KVANTUM_DIR/"
+rm -rf "$KVANTUM_DIR/TpTheme/"
+cp -r "$SCRIPT_DIR/TpTheme-kvantum/" "$KVANTUM_DIR/TpTheme/"
 rm -rf "$PLASMA_DIR/TpTheme/"
 cp -r "$SCRIPT_DIR/TpTheme-plasma/" "$PLASMA_DIR/TpTheme/"
 rm -rf "$ICONS_DIR/TpTheme/"
@@ -23,7 +22,7 @@ cp -r "$SCRIPT_DIR/WhiteSur-Rocket-cursors/" "$ICONS_DIR/TpTheme/"
 
 echo "Created:"
 echo "  $AURORAE_DIR/TpTheme/"
-echo "  $KVANTUM_DIR/*"
+echo "  $KVANTUM_DIR/TpTheme/"
 echo "  $PLASMA_DIR/TpTheme/"
 echo "  $ICONS_DIR/TpTheme/"
 
