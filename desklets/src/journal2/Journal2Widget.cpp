@@ -48,7 +48,7 @@ Journal2Widget::Journal2Widget(QWidget *parent) : ShapedBlurWindow(parent) {
 
     QTimer *timer = new QTimer(this);
     connect(timer, &QTimer::timeout, this, refreshStatus);
-    timer->start(3000);
+    timer->start(500);
 
     refreshStatus();
 }

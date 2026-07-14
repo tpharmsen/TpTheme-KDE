@@ -838,8 +838,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-27gqU1"
-      binary: "/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-27gqU1"
+      source: "/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-d34Ecy"
+      binary: "/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-d34Ecy"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -849,13 +849,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-27gqU1'
+        Change Dir: '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-d34Ecy'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5d8d6/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_5d8d6.dir/build.make CMakeFiles/cmTC_5d8d6.dir/build
-        gmake[1]: Entering directory '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-27gqU1'
-        Building CXX object CMakeFiles/cmTC_5d8d6.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_5d8d6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b6d17/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b6d17.dir/build.make CMakeFiles/cmTC_b6d17.dir/build
+        gmake[1]: Entering directory '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-d34Ecy'
+        Building CXX object CMakeFiles/cmTC_b6d17.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_b6d17.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -865,8 +865,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5d8d6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5d8d6.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_5d8d6.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccBonles.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b6d17.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b6d17.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b6d17.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccPxJHzG.s
         GNU C++17 (Ubuntu 15.2.0-16ubuntu1) version 15.2.0 (x86_64-linux-gnu)
         	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -887,14 +887,14 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: b661a74662ad7cf413c4193391ab5290
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5d8d6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5d8d6.dir/'
-         /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_5d8d6.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccBonles.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b6d17.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b6d17.dir/'
+         /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_b6d17.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccPxJHzG.s
         GNU assembler version 2.46 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.46
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5d8d6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5d8d6.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_5d8d6
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d8d6.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b6d17.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b6d17.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_b6d17
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6d17.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper
@@ -907,14 +907,14 @@ events:
         gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5d8d6' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5d8d6.'
-         /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccicdagg.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5d8d6 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_5d8d6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b6d17' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b6d17.'
+         /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccuK1tRI.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b6d17 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_b6d17.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
         collect2 version 15.2.0
-        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccicdagg.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5d8d6 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_5d8d6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccuK1tRI.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b6d17 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_b6d17.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
         GNU ld (GNU Binutils for Ubuntu) 2.46
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5d8d6' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5d8d6.'
-        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_5d8d6.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_5d8d6
-        gmake[1]: Leaving directory '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-27gqU1'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b6d17' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b6d17.'
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_b6d17.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b6d17
+        gmake[1]: Leaving directory '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-d34Ecy'
         
       exitCode: 0
   -
@@ -955,13 +955,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-27gqU1']
+        ignore line: [Change Dir: '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-d34Ecy']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5d8d6/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_5d8d6.dir/build.make CMakeFiles/cmTC_5d8d6.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-27gqU1']
-        ignore line: [Building CXX object CMakeFiles/cmTC_5d8d6.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_5d8d6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b6d17/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_b6d17.dir/build.make CMakeFiles/cmTC_b6d17.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-d34Ecy']
+        ignore line: [Building CXX object CMakeFiles/cmTC_b6d17.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_b6d17.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -971,8 +971,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5d8d6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5d8d6.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_5d8d6.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccBonles.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b6d17.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b6d17.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b6d17.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccPxJHzG.s]
         ignore line: [GNU C++17 (Ubuntu 15.2.0-16ubuntu1) version 15.2.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -993,14 +993,14 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: b661a74662ad7cf413c4193391ab5290]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5d8d6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5d8d6.dir/']
-        ignore line: [ /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_5d8d6.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccBonles.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b6d17.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b6d17.dir/']
+        ignore line: [ /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_b6d17.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccPxJHzG.s]
         ignore line: [GNU assembler version 2.46 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.46]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5d8d6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5d8d6.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_5d8d6]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d8d6.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b6d17.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b6d17.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_b6d17]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6d17.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper]
@@ -1013,13 +1013,13 @@ events:
         ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5d8d6' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5d8d6.']
-        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccicdagg.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5d8d6 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_5d8d6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b6d17' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b6d17.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccuK1tRI.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b6d17 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_b6d17.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/libexec/gcc/x86_64-linux-gnu/15/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccicdagg.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccuK1tRI.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -1037,7 +1037,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_5d8d6] ==> ignore
+          arg [cmTC_b6d17] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o]
@@ -1052,7 +1052,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_5d8d6.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_b6d17.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -1063,7 +1063,7 @@ events:
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
         ignore line: [collect2 version 15.2.0]
-        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccicdagg.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5d8d6 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_5d8d6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccuK1tRI.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b6d17 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_b6d17.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
         linker tool for 'CXX': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
@@ -1110,8 +1110,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-Ff19bp"
-      binary: "/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-Ff19bp"
+      source: "/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-2J9OBw"
+      binary: "/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-2J9OBw"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1121,17 +1121,17 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-Ff19bp'
+        Change Dir: '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-2J9OBw'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_897b7/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_897b7.dir/build.make CMakeFiles/cmTC_897b7.dir/build
-        gmake[1]: Entering directory '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-Ff19bp'
-        Building CXX object CMakeFiles/cmTC_897b7.dir/src.cxx.o
-        /usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++17 -o CMakeFiles/cmTC_897b7.dir/src.cxx.o -c /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-Ff19bp/src.cxx
-        Linking CXX executable cmTC_897b7
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_897b7.dir/link.txt --verbose=1
-        /usr/bin/c++ CMakeFiles/cmTC_897b7.dir/src.cxx.o -o cmTC_897b7
-        gmake[1]: Leaving directory '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-Ff19bp'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c894b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c894b.dir/build.make CMakeFiles/cmTC_c894b.dir/build
+        gmake[1]: Entering directory '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-2J9OBw'
+        Building CXX object CMakeFiles/cmTC_c894b.dir/src.cxx.o
+        /usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++17 -o CMakeFiles/cmTC_c894b.dir/src.cxx.o -c /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-2J9OBw/src.cxx
+        Linking CXX executable cmTC_c894b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c894b.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_c894b.dir/src.cxx.o -o cmTC_c894b
+        gmake[1]: Leaving directory '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-2J9OBw'
         
       exitCode: 0
   -
@@ -1467,8 +1467,8 @@ events:
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-Sz4eEi"
-      binary: "/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-Sz4eEi"
+      source: "/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-FipBoU"
+      binary: "/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-FipBoU"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1478,17 +1478,17 @@ events:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-Sz4eEi'
+        Change Dir: '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-FipBoU'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5e01d/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_5e01d.dir/build.make CMakeFiles/cmTC_5e01d.dir/build
-        gmake[1]: Entering directory '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-Sz4eEi'
-        Building CXX object CMakeFiles/cmTC_5e01d.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_STDATOMIC  -std=gnu++17 -o CMakeFiles/cmTC_5e01d.dir/src.cxx.o -c /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-Sz4eEi/src.cxx
-        Linking CXX executable cmTC_5e01d
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e01d.dir/link.txt --verbose=1
-        /usr/bin/c++ CMakeFiles/cmTC_5e01d.dir/src.cxx.o -o cmTC_5e01d
-        gmake[1]: Leaving directory '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-Sz4eEi'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f1dc1/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f1dc1.dir/build.make CMakeFiles/cmTC_f1dc1.dir/build
+        gmake[1]: Entering directory '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-FipBoU'
+        Building CXX object CMakeFiles/cmTC_f1dc1.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_STDATOMIC  -std=gnu++17 -o CMakeFiles/cmTC_f1dc1.dir/src.cxx.o -c /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-FipBoU/src.cxx
+        Linking CXX executable cmTC_f1dc1
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1dc1.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_f1dc1.dir/src.cxx.o -o cmTC_f1dc1
+        gmake[1]: Leaving directory '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-FipBoU'
         
       exitCode: 0
   -
@@ -21873,8 +21873,8 @@ events:
     checks:
       - "Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so"
     directories:
-      source: "/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-ipFpxQ"
-      binary: "/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-ipFpxQ"
+      source: "/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-syiFHh"
+      binary: "/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-syiFHh"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -21884,17 +21884,17 @@ events:
       variable: "X11_LIB_X11_SOLO"
       cached: true
       stdout: |
-        Change Dir: '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-ipFpxQ'
+        Change Dir: '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-syiFHh'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_809bb/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_809bb.dir/build.make CMakeFiles/cmTC_809bb.dir/build
-        gmake[1]: Entering directory '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-ipFpxQ'
-        Building CXX object CMakeFiles/cmTC_809bb.dir/CheckFunctionExists.cxx.o
-        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -std=gnu++17 -o CMakeFiles/cmTC_809bb.dir/CheckFunctionExists.cxx.o -c /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-ipFpxQ/CheckFunctionExists.cxx
-        Linking CXX executable cmTC_809bb
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_809bb.dir/link.txt --verbose=1
-        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_809bb.dir/CheckFunctionExists.cxx.o -o cmTC_809bb  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so
-        gmake[1]: Leaving directory '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-ipFpxQ'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9f56c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9f56c.dir/build.make CMakeFiles/cmTC_9f56c.dir/build
+        gmake[1]: Entering directory '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-syiFHh'
+        Building CXX object CMakeFiles/cmTC_9f56c.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -std=gnu++17 -o CMakeFiles/cmTC_9f56c.dir/CheckFunctionExists.cxx.o -c /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-syiFHh/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_9f56c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f56c.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_9f56c.dir/CheckFunctionExists.cxx.o -o cmTC_9f56c  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so
+        gmake[1]: Leaving directory '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-syiFHh'
         
       exitCode: 0
   -
@@ -21909,8 +21909,8 @@ events:
     checks:
       - "Looking for gethostbyname"
     directories:
-      source: "/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-KAZI2v"
-      binary: "/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-KAZI2v"
+      source: "/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-fO0PN8"
+      binary: "/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-fO0PN8"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -21920,17 +21920,17 @@ events:
       variable: "CMAKE_HAVE_GETHOSTBYNAME"
       cached: true
       stdout: |
-        Change Dir: '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-KAZI2v'
+        Change Dir: '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-fO0PN8'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_df0eb/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_df0eb.dir/build.make CMakeFiles/cmTC_df0eb.dir/build
-        gmake[1]: Entering directory '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-KAZI2v'
-        Building CXX object CMakeFiles/cmTC_df0eb.dir/CheckFunctionExists.cxx.o
-        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=gethostbyname -std=gnu++17 -o CMakeFiles/cmTC_df0eb.dir/CheckFunctionExists.cxx.o -c /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-KAZI2v/CheckFunctionExists.cxx
-        Linking CXX executable cmTC_df0eb
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df0eb.dir/link.txt --verbose=1
-        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_df0eb.dir/CheckFunctionExists.cxx.o -o cmTC_df0eb
-        gmake[1]: Leaving directory '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-KAZI2v'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_34f88/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_34f88.dir/build.make CMakeFiles/cmTC_34f88.dir/build
+        gmake[1]: Entering directory '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-fO0PN8'
+        Building CXX object CMakeFiles/cmTC_34f88.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=gethostbyname -std=gnu++17 -o CMakeFiles/cmTC_34f88.dir/CheckFunctionExists.cxx.o -c /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-fO0PN8/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_34f88
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34f88.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_34f88.dir/CheckFunctionExists.cxx.o -o cmTC_34f88
+        gmake[1]: Leaving directory '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-fO0PN8'
         
       exitCode: 0
   -
@@ -21945,8 +21945,8 @@ events:
     checks:
       - "Looking for connect"
     directories:
-      source: "/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-NhedyV"
-      binary: "/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-NhedyV"
+      source: "/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-2sBVsh"
+      binary: "/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-2sBVsh"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -21956,17 +21956,17 @@ events:
       variable: "CMAKE_HAVE_CONNECT"
       cached: true
       stdout: |
-        Change Dir: '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-NhedyV'
+        Change Dir: '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-2sBVsh'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_db3df/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_db3df.dir/build.make CMakeFiles/cmTC_db3df.dir/build
-        gmake[1]: Entering directory '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-NhedyV'
-        Building CXX object CMakeFiles/cmTC_db3df.dir/CheckFunctionExists.cxx.o
-        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=connect -std=gnu++17 -o CMakeFiles/cmTC_db3df.dir/CheckFunctionExists.cxx.o -c /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-NhedyV/CheckFunctionExists.cxx
-        Linking CXX executable cmTC_db3df
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db3df.dir/link.txt --verbose=1
-        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_db3df.dir/CheckFunctionExists.cxx.o -o cmTC_db3df
-        gmake[1]: Leaving directory '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-NhedyV'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_45f6c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_45f6c.dir/build.make CMakeFiles/cmTC_45f6c.dir/build
+        gmake[1]: Entering directory '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-2sBVsh'
+        Building CXX object CMakeFiles/cmTC_45f6c.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=connect -std=gnu++17 -o CMakeFiles/cmTC_45f6c.dir/CheckFunctionExists.cxx.o -c /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-2sBVsh/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_45f6c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45f6c.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_45f6c.dir/CheckFunctionExists.cxx.o -o cmTC_45f6c
+        gmake[1]: Leaving directory '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-2sBVsh'
         
       exitCode: 0
   -
@@ -21981,8 +21981,8 @@ events:
     checks:
       - "Looking for remove"
     directories:
-      source: "/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-n3KdKH"
-      binary: "/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-n3KdKH"
+      source: "/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-B90HE7"
+      binary: "/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-B90HE7"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -21992,17 +21992,17 @@ events:
       variable: "CMAKE_HAVE_REMOVE"
       cached: true
       stdout: |
-        Change Dir: '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-n3KdKH'
+        Change Dir: '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-B90HE7'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_313f6/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_313f6.dir/build.make CMakeFiles/cmTC_313f6.dir/build
-        gmake[1]: Entering directory '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-n3KdKH'
-        Building CXX object CMakeFiles/cmTC_313f6.dir/CheckFunctionExists.cxx.o
-        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=remove -std=gnu++17 -o CMakeFiles/cmTC_313f6.dir/CheckFunctionExists.cxx.o -c /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-n3KdKH/CheckFunctionExists.cxx
-        Linking CXX executable cmTC_313f6
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_313f6.dir/link.txt --verbose=1
-        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_313f6.dir/CheckFunctionExists.cxx.o -o cmTC_313f6
-        gmake[1]: Leaving directory '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-n3KdKH'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f89f2/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f89f2.dir/build.make CMakeFiles/cmTC_f89f2.dir/build
+        gmake[1]: Entering directory '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-B90HE7'
+        Building CXX object CMakeFiles/cmTC_f89f2.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=remove -std=gnu++17 -o CMakeFiles/cmTC_f89f2.dir/CheckFunctionExists.cxx.o -c /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-B90HE7/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_f89f2
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f89f2.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_f89f2.dir/CheckFunctionExists.cxx.o -o cmTC_f89f2
+        gmake[1]: Leaving directory '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-B90HE7'
         
       exitCode: 0
   -
@@ -22017,8 +22017,8 @@ events:
     checks:
       - "Looking for shmat"
     directories:
-      source: "/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-m5U4Cc"
-      binary: "/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-m5U4Cc"
+      source: "/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-MF1AIi"
+      binary: "/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-MF1AIi"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -22028,17 +22028,17 @@ events:
       variable: "CMAKE_HAVE_SHMAT"
       cached: true
       stdout: |
-        Change Dir: '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-m5U4Cc'
+        Change Dir: '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-MF1AIi'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4a54e/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_4a54e.dir/build.make CMakeFiles/cmTC_4a54e.dir/build
-        gmake[1]: Entering directory '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-m5U4Cc'
-        Building CXX object CMakeFiles/cmTC_4a54e.dir/CheckFunctionExists.cxx.o
-        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=shmat -std=gnu++17 -o CMakeFiles/cmTC_4a54e.dir/CheckFunctionExists.cxx.o -c /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-m5U4Cc/CheckFunctionExists.cxx
-        Linking CXX executable cmTC_4a54e
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a54e.dir/link.txt --verbose=1
-        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_4a54e.dir/CheckFunctionExists.cxx.o -o cmTC_4a54e
-        gmake[1]: Leaving directory '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-m5U4Cc'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4e970/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_4e970.dir/build.make CMakeFiles/cmTC_4e970.dir/build
+        gmake[1]: Entering directory '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-MF1AIi'
+        Building CXX object CMakeFiles/cmTC_4e970.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=shmat -std=gnu++17 -o CMakeFiles/cmTC_4e970.dir/CheckFunctionExists.cxx.o -c /home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-MF1AIi/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_4e970
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e970.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_4e970.dir/CheckFunctionExists.cxx.o -o cmTC_4e970
+        gmake[1]: Leaving directory '/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles/CMakeScratch/TryCompile-MF1AIi'
         
       exitCode: 0
   -

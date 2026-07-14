@@ -104,8 +104,8 @@ clean: CMakeFiles/terminal-widget_autogen.dir/clean
 # Target rules for target CMakeFiles/shapedblur.dir
 
 # All Build rule for target.
-CMakeFiles/shapedblur.dir/all: CMakeFiles/shapedblur_autogen_timestamp_deps.dir/all
 CMakeFiles/shapedblur.dir/all: CMakeFiles/shapedblur_autogen.dir/all
+CMakeFiles/shapedblur.dir/all: CMakeFiles/shapedblur_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shapedblur.dir/build.make CMakeFiles/shapedblur.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shapedblur.dir/build.make CMakeFiles/shapedblur.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/tpharmsen/Documents/themes/TpTheme-KDE/desklets/build/CMakeFiles --progress-num=21,22,23,24 "Built target shapedblur"
