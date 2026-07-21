@@ -4,8 +4,8 @@
    version="1.0"
    height="1338"
    id="svg2"
-   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
-   sodipodi:docname="MacTahoeDark.svg"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="TpTheme.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -36,12 +36,12 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1014"
+     inkscape:window-height="1046"
      id="namedview967"
      showgrid="true"
-     inkscape:zoom="2.828427"
-     inkscape:cx="291.32801"
-     inkscape:cy="148.49243"
+     inkscape:zoom="1.4142135"
+     inkscape:cx="495.68188"
+     inkscape:cy="1092.1265"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -4477,7 +4477,7 @@
   <path
      d="m 665,1152.9528 h 30 v 30 h -30 z"
      id="window-normal"
-     style="opacity:0.75;fill:#242424;fill-opacity:1;fill-rule:evenodd;paint-order:normal" />
+     style="opacity:1;fill:#242424;fill-opacity:1;fill-rule:evenodd;paint-order:normal" />
   <path
      d="m 593,1152.9528 h 30 v 30 h -30 z"
      id="dialog-normal"
