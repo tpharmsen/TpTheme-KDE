@@ -1,21 +1,48 @@
 #include "JournalWidget.h"
 #include <QVBoxLayout>
-#include <QScrollBar>
 #include <QRegularExpression>
 #include <QTimer> // Add this
 
 JournalWidget::JournalWidget(QWidget *parent) : ShapedBlurWindow(parent) {
-    resize(520, 320);
+    resize(520, 340);
+
+    auto *layout = new QVBoxLayout(this);
+    layout->setContentsMargins(22, 18, 22, 18);
+    layout->setSpacing(0);
 
     m_output = new QTextEdit(this);
     m_output->setReadOnly(true);
     m_output->setFrameStyle(QFrame::NoFrame);
     m_output->setAttribute(Qt::WA_TranslucentBackground);
     m_output->viewport()->setAutoFillBackground(false);
-    m_output->setStyleSheet(QStringLiteral("QTextEdit { background: transparent; color: #d8d8d8; font-family: monospace; font-size: 10pt; }"));
+    m_output->setLineWrapMode(QTextEdit::NoWrap);
+    m_output->setAcceptRichText(true);
+    m_output->setStyleSheet(QStringLiteral(
+        "QTextEdit {"
+        " background: rgba(255, 255, 255, 12);"
+        " border: 1px solid rgba(255, 255, 255, 22);"
+        " border-radius: 12px;"
+        " color: #d8d8d8;"
+        " padding: 10px;"
+        " selection-background-color: rgba(240, 161, 90, 90);"
+        " font-family: monospace;"
+        " font-size: 10pt;"
+        "}"
+        "QScrollBar:vertical {"
+        " background: transparent;"
+        " width: 8px;"
+        " margin: 8px 3px 8px 0;"
+        " border-radius: 4px;"
+        "}"
+        "QScrollBar::handle:vertical {"
+        " background: rgba(255, 255, 255, 55);"
+        " border-radius: 4px;"
+        " min-height: 24px;"
+        " margin: 0px;"
+        "}"
+        "QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical { height: 0px; }"
+        "QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical { background: transparent; }"));
 
-    auto *layout = new QVBoxLayout(this);
-    layout->setContentsMargins(16, 14, 16, 14);
     layout->addWidget(m_output);
 
     m_process = new QProcess(this);
@@ -23,7 +50,14 @@ JournalWidget::JournalWidget(QWidget *parent) : ShapedBlurWindow(parent) {
     // Capture output whenever it arrives
     connect(m_process, &QProcess::readyReadStandardOutput, this, [this] {
         QString rawLog = QString::fromUtf8(m_process->readAllStandardOutput());
-        m_output->setHtml(ansiToHtml(rawLog)); // Use setHtml to replace, or append if you prefer
+        const QStringList lines = rawLog.split(QChar('\n'));
+        QStringList trimmedLines;
+        for (const QString &line : lines) {
+            trimmedLines.append(line);
+            if (line.contains(QStringLiteral("CGroup:")))
+                break;
+        }
+        m_output->setHtml(ansiToHtml(trimmedLines.join(QChar('\n'))));
     });
 
     // Setup the timer to refresh every 5000ms (5 seconds)
@@ -52,17 +86,17 @@ JournalWidget::JournalWidget(QWidget *parent) : ShapedBlurWindow(parent) {
 QString JournalWidget::ansiToHtml(QString text) {
     // --- CUSTOM COLORS ---
     // Change these HEX codes to whatever you like
-    QString greenColor = "#c87137"; // changed to orange
-    QString redColor   = "#ff5555";
-    QString yellowColor= "#ffff55";
-    QString cyanColor  = "#55ffff";
+    const QString greenColor = "#c87137";
+    const QString redColor = "#ff8585";
+    const QString yellowColor = "#ffd27d";
+    const QString cyanColor = "#c87137";
     // ---------------------
 
     // 1. Escape HTML special characters
     text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;");
 
     // 2. Start the HTML with a <pre> tag
-    QString result = "<pre style='margin:0; font-family: monospace; white-space: pre-wrap;'>";
+    QString result = "<pre style='margin:0; font-family: monospace; white-space: pre-wrap; line-height: 1.35;'>";
 
     // 3. Use globalMatch to find all ANSI escape codes
     QRegularExpression ansiRegex("\x1B\\[([0-9:;]+)m|\x1B\\]8;;.*?\x1B\\\\");

@@ -11,6 +11,7 @@ public:
 protected:
     QPainterPath shapePath() const override;
     void paintEvent(QPaintEvent *event) override;
+    void resizeEvent(QResizeEvent *event) override;
 
 private:
     QTermWidget *m_term;

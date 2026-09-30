@@ -27,6 +27,7 @@ echo "  $PLASMA_DIR/TpTheme/"
 echo "  $ICONS_DIR/TpTheme/"
 
 AUTOSTART_DIR="$HOME/.config/autostart"
+DESKLETS_BUILD_DIR="$SCRIPT_DIR/desklets/build"
 
 mkdir -p "$AUTOSTART_DIR"
 
@@ -34,7 +35,7 @@ cat > "$AUTOSTART_DIR/journal-widget.desktop" <<EOF
 [Desktop Entry]
 Type=Application
 Name=Journal Widget
-Exec=$HOME/Documents/themes/TpTheme-KDE/desklets/build/journal-widget
+Exec=$DESKLETS_BUILD_DIR/journal-widget
 Hidden=false
 Enabled=true
 X-KDE-Autostart-Phase=Desktop
@@ -44,28 +45,61 @@ cat > "$AUTOSTART_DIR/clock-widget.desktop" <<EOF
 [Desktop Entry]
 Type=Application
 Name=Clock Widget
-Exec=$HOME/Documents/themes/TpTheme-KDE/desklets/build/clock-widget
+Exec=$DESKLETS_BUILD_DIR/clock-widget
 Hidden=false
 Enabled=true
 X-KDE-Autostart-Phase=Desktop
 EOF
 
-cat > "$AUTOSTART_DIR/journal2-widget.desktop" <<EOF
+cat > "$AUTOSTART_DIR/system-widget.desktop" <<EOF
 [Desktop Entry]
 Type=Application
-Name=Journal2 Widget
-Exec=$HOME/Documents/themes/TpTheme-KDE/desklets/build/journal2-widget
+Name=System Widget
+Exec=$DESKLETS_BUILD_DIR/system-widget
 Hidden=false
 Enabled=true
 X-KDE-Autostart-Phase=Desktop
 EOF
 
+cat > "$AUTOSTART_DIR/quote-widget.desktop" <<EOF
+[Desktop Entry]
+Type=Application
+Name=Quote Widget
+Exec=$DESKLETS_BUILD_DIR/quote-widget
+Hidden=false
+Enabled=true
+X-KDE-Autostart-Phase=Desktop
+EOF
 
+cat > "$AUTOSTART_DIR/animation-widget.desktop" <<EOF
+[Desktop Entry]
+Type=Application
+Name=Animation Widget
+Exec=$DESKLETS_BUILD_DIR/animation-widget
+Hidden=false
+Enabled=true
+X-KDE-Autostart-Phase=Desktop
+EOF
+
+if [[ -x "$DESKLETS_BUILD_DIR/terminal-widget" ]]; then
+    cat > "$AUTOSTART_DIR/terminal-widget.desktop" <<EOF
+[Desktop Entry]
+Type=Application
+Name=Terminal Widget
+Exec=$DESKLETS_BUILD_DIR/terminal-widget
+Hidden=false
+Enabled=true
+X-KDE-Autostart-Phase=Desktop
+EOF
+fi
 
 echo "Created:"
 echo "  $AUTOSTART_DIR/journal-widget.desktop"
 echo "  $AUTOSTART_DIR/clock-widget.desktop"
-echo "  $AUTOSTART_DIR/journal2-widget.desktop"
+echo "  $AUTOSTART_DIR/system-widget.desktop"
+echo "  $AUTOSTART_DIR/quote-widget.desktop"
+echo "  $AUTOSTART_DIR/animation-widget.desktop"
+if [[ -f "$AUTOSTART_DIR/terminal-widget.desktop" ]]; then
+    echo "  $AUTOSTART_DIR/terminal-widget.desktop"
+fi
 echo "Installation complete!"
-
-

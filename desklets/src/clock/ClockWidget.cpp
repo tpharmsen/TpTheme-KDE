@@ -64,7 +64,10 @@ void ClockWidget::resizeEvent(QResizeEvent *event) {
 // that interval. Called after every tick instead of running a fixed
 // high-frequency timer forever.
 void ClockWidget::scheduleNextTick() {
-    if (!isVisible()) return;
+    if (!isVisible()) {
+        m_timer->stop();
+        return;
+    }
 
     const int msec = QTime::currentTime().msec();
     constexpr double snapDuration = 250.0;

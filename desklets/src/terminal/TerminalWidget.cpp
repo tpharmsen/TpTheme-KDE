@@ -4,25 +4,82 @@
 
 #include <QVBoxLayout>
 #include <QApplication>
+#include <QCoreApplication>
+#include <QFontDatabase>
+#include <QFile>
+#include <QFileInfo>
 #include <QProcessEnvironment>
-#include <QScrollBar>
 #include <QPainter>
 #include <QPaintEvent>
+#include <QResizeEvent>
+#include <QStandardPaths>
 
 TerminalWidget::TerminalWidget(QWidget *parent)
 : ShapedBlurWindow(parent)
 {
-    resize(560, 340);
+    resize(620, 360);
+    m_wantsKeyboardInput = true;
 
     // 1. Ensure the parent container is translucent to let the blur shader render
     setAttribute(Qt::WA_TranslucentBackground);
 
     m_term = new QTermWidget(0, this);
 
-    // 2. Configure QTermWidget for complete transparency
-    // Setting opacity to 0 ensures the widget background is invisible
-    m_term->setTerminalOpacity(0.0);
-    m_term->setColorScheme(QStringLiteral("Linux"));
+    // Match the user's Konsole Breeze profile: neutral gray background,
+    // 50% terminal opacity, and no colorized desktop tint.
+    m_term->setTerminalOpacity(0.5);
+    const QStringList schemeCandidates{
+        QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation)
+            + QStringLiteral("/konsole/Breeze.colorscheme"),
+        QStringLiteral("/usr/share/konsole/Breeze.colorscheme"),
+        QStringLiteral("/usr/share/qtermwidget6/color-schemes/Breeze.colorscheme"),
+        QCoreApplication::applicationDirPath() + QStringLiteral("/Orange.colorscheme")
+    };
+    QString colorSchemePath;
+    for (const QString &candidate : schemeCandidates) {
+        if (QFile::exists(candidate)) {
+            colorSchemePath = candidate;
+            break;
+        }
+    }
+    if (!colorSchemePath.isEmpty()) {
+        QTermWidget::addCustomColorSchemeDir(QFileInfo(colorSchemePath).path());
+        m_term->setColorScheme(colorSchemePath);
+    }
+    QString nerdFontFamily;
+    const QStringList fontFamilies = QFontDatabase::families();
+    const QStringList preferredFonts{
+        QStringLiteral("JetBrainsMono Nerd Font"),
+        QStringLiteral("Hack Nerd Font"),
+        QStringLiteral("FiraCode Nerd Font"),
+        QStringLiteral("MesloLGS NF"),
+        QStringLiteral("Iosevka Nerd Font")
+    };
+    for (const QString &preferred : preferredFonts) {
+        if (fontFamilies.contains(preferred)) {
+            nerdFontFamily = preferred;
+            break;
+        }
+    }
+    if (nerdFontFamily.isEmpty()) {
+        for (const QString &family : fontFamilies) {
+            if (family.contains(QStringLiteral("Nerd Font"), Qt::CaseInsensitive)
+                && QFontDatabase::isFixedPitch(family)) {
+                nerdFontFamily = family;
+                break;
+            }
+        }
+    }
+
+    QFont terminalFont(nerdFontFamily.isEmpty()
+        ? QStringLiteral("Monospace")
+        : nerdFontFamily, 10);
+    terminalFont.setStyleHint(QFont::Monospace);
+    m_term->setTerminalFont(terminalFont);
+    m_term->setMargin(12);
+    m_term->setHistorySize(2000);
+    m_term->setScrollBarPosition(QTermWidgetInterface::NoScrollBar);
+    m_term->setBlinkingCursor(true);
 
     // 3. Remove default padding/borders that often appear as "ghost" boxes
     m_term->setTerminalSizeHint(false);
@@ -30,8 +87,7 @@ TerminalWidget::TerminalWidget(QWidget *parent)
     // 4. Force transparent background via Stylesheet
     // This is more robust than palette manipulation for QTermWidget
     m_term->setStyleSheet(QStringLiteral(
-        "QTermWidget { background: transparent; border: none; }"
-        "QScrollBar { background: transparent; width: 0px; }" // Hide scrollbar if you want a cleaner look
+        "QTermWidget { background: transparent; border: none; color: #dcb088; border-radius: 24px; }"
     ));
 
     // 5. Shell configuration
@@ -64,6 +120,18 @@ void TerminalWidget::paintEvent(QPaintEvent *event)
     painter.setBrush(QColor(36, 36, 36, 128));
     painter.setPen(Qt::NoPen);
     painter.drawRoundedRect(rect(), 24, 24);
+}
+
+void TerminalWidget::resizeEvent(QResizeEvent *event)
+{
+    ShapedBlurWindow::resizeEvent(event);
+
+    if (!m_term)
+        return;
+
+    QPainterPath path;
+    path.addRoundedRect(m_term->rect(), 24, 24);
+    m_term->setMask(QRegion(path.toFillPolygon().toPolygon()));
 }
 
 QPainterPath TerminalWidget::shapePath() const

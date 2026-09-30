@@ -1,7 +1,8 @@
 # KDE Plasma 6 — Shaped, Live-Blurred Desktop Widgets
 
-Three standalone apps — a circular clock, a hexagonal terminal, and a
-rounded `journalctl -f` viewer — each frameless, non-rectangular, and
+Standalone apps — a circular clock, a rounded resource monitor, a retro
+marquee, an orbital animation, a hexagonal terminal, and a rounded
+`journalctl -f` viewer — each frameless, non-rectangular, and
 live-blurred against your desktop wallpaper via KWin's real compositor
 blur (`KWindowEffects::enableBlurBehind`).
 
@@ -44,8 +45,11 @@ cmake .. -DCMAKE_BUILD_TYPE=Release
 make -j$(nproc)
 ```
 
-Binaries land in `build/`: `clock-widget`, `journal-widget`, and (if
-qtermwidget was found) `terminal-widget`.
+Binaries land in `build`: `clock-widget`, `journal-widget`, `system-widget`,
+`quote-widget`,
+`animation-widget`,
+and (if qtermwidget was found)
+`terminal-widget`.
 
 Optional install:
 ```bash
@@ -75,6 +79,9 @@ Pick a video encoded at 30fps, looping enabled.
 ```bash
 ./build/clock-widget &
 ./build/journal-widget &
+./build/system-widget &
+./build/quote-widget &
+./build/animation-widget &
 ./build/terminal-widget &
 ```
 
@@ -117,6 +124,15 @@ src/
   journal/
     JournalWidget.h / .cpp      — rounded-rect journalctl -f tail viewer
     main.cpp
+  journal2/
+    SystemWidget.h / .cpp       — stylized CPU, RAM, GPU, VRAM, temperature and uptime
+    main.cpp
+  quote/
+    QuoteWidget.h / .cpp        — rotating local quote card
+    main.cpp
+  animation/
+    AnimationWidget.h / .cpp    — continuous abstract orbital animation
+    main.cpp
   terminal/
     TerminalWidget.h / .cpp     — hexagonal, QTermWidget-backed terminal
     main.cpp
@@ -136,7 +152,16 @@ for an example that clips the corners into a hexagon, versus
 
 - `journal-widget` runs `journalctl -f --no-pager -n 50 -o short`. Add
   `-u <unit>` to follow a specific service instead of the whole journal.
+- `system-widget` combines the resource monitor and uptime display. GPU,
+  VRAM, and temperature values come from the bundled `sysbar.sh` helper.
+- `quote-widget` is an offline-friendly right-to-left retro marquee and
+  requires no additional runtime services.
+- `animation-widget` renders its animation locally with Qt and uses no
+  external assets.
 - For `systemctl status` instead of the log stream, either poll it on a
   `QTimer` with `QProcess`, or (more efficient) subscribe to
   `PropertiesChanged` signals on `org.freedesktop.systemd1` over D-Bus.
 - `TerminalWidget` reads `$SHELL` and falls back to `/bin/bash`.
+- `terminal-widget` matches the user's Konsole Breeze background when
+  available, detects an installed Nerd Font, hides scrollbars, and keeps the
+  rounded desktop presentation.

@@ -1,9 +1,9 @@
 #include <QApplication>
-#include "SystemWidget.h"
+#include "AnimationWidget.h"
 
 int main(int argc, char *argv[]) {
     QApplication app(argc, argv);
-    SystemWidget w;
-    w.show();
+    AnimationWidget widget;
+    widget.show();
     return app.exec();
 }

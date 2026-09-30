@@ -11,7 +11,6 @@ set(CMAKE_AUTOUIC ON)
 find_package(Qt6 REQUIRED COMPONENTS Widgets Svg)
 find_package(KF6WindowSystem REQUIRED)
 find_package(LayerShellQt REQUIRED)
-
 # QTermWidget detection logic
 find_package(PkgConfig QUIET)
 set(QTERMWIDGET_FOUND FALSE)
@@ -73,20 +72,33 @@ add_executable(journal-widget
 )
 target_link_libraries(journal-widget PRIVATE shapedblur)
 
-
-
 # --- journalctl tail widget 2---
 
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/src/journal2/sysbar.sh
                ${CMAKE_CURRENT_BINARY_DIR}/sysbar.sh
                COPYONLY)
 
-add_executable(journal2-widget
+add_executable(system-widget
     src/journal2/main.cpp
-    src/journal2/Journal2Widget.cpp
-    src/journal2/Journal2Widget.h
+    src/journal2/SystemWidget.cpp
+    src/journal2/SystemWidget.h
 )
-target_link_libraries(journal2-widget PRIVATE shapedblur)
+target_link_libraries(system-widget PRIVATE shapedblur)
+
+# --- desktop companion widgets ---
+add_executable(quote-widget
+    src/quote/main.cpp
+    src/quote/QuoteWidget.cpp
+    src/quote/QuoteWidget.h
+)
+target_link_libraries(quote-widget PRIVATE shapedblur)
+
+add_executable(animation-widget
+    src/animation/main.cpp
+    src/animation/AnimationWidget.cpp
+    src/animation/AnimationWidget.h
+)
+target_link_libraries(animation-widget PRIVATE shapedblur)
 
 # --- terminal widget ---
 if(QTERMWIDGET_FOUND)
@@ -94,14 +106,19 @@ if(QTERMWIDGET_FOUND)
         src/terminal/main.cpp
         src/terminal/TerminalWidget.cpp
         src/terminal/TerminalWidget.h
+        src/terminal/Orange.colorscheme
     )
     target_link_libraries(terminal-widget PRIVATE shapedblur ${QTERMWIDGET_LIBRARIES})
     target_include_directories(terminal-widget PRIVATE ${QTERMWIDGET_INCLUDE_DIRS})
     target_link_directories(terminal-widget PRIVATE ${QTERMWIDGET_LIBRARY_DIRS})
     target_compile_options(terminal-widget PRIVATE ${QTERMWIDGET_CFLAGS_OTHER})
+    configure_file(${CMAKE_CURRENT_SOURCE_DIR}/src/terminal/Orange.colorscheme
+                   ${CMAKE_CURRENT_BINARY_DIR}/Orange.colorscheme COPYONLY)
 endif()
 
-install(TARGETS clock-widget journal-widget journal2-widget RUNTIME DESTINATION bin)
+install(TARGETS clock-widget journal-widget system-widget quote-widget animation-widget
+        RUNTIME DESTINATION bin)
 if(TARGET terminal-widget)
     install(TARGETS terminal-widget RUNTIME DESTINATION bin)
+    install(FILES src/terminal/Orange.colorscheme DESTINATION bin)
 endif()
