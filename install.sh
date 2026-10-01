@@ -30,6 +30,8 @@ AUTOSTART_DIR="$HOME/.config/autostart"
 DESKLETS_BUILD_DIR="$SCRIPT_DIR/desklets/build"
 
 mkdir -p "$AUTOSTART_DIR"
+rm -f "$AUTOSTART_DIR/animation-widget.desktop" "$AUTOSTART_DIR/anim-widget.desktop"
+rm -f "$AUTOSTART_DIR/signature-widget.desktop"
 
 cat > "$AUTOSTART_DIR/journal-widget.desktop" <<EOF
 [Desktop Entry]

@@ -74,14 +74,14 @@ target_link_libraries(journal-widget PRIVATE shapedblur)
 
 # --- journalctl tail widget 2---
 
-configure_file(${CMAKE_CURRENT_SOURCE_DIR}/src/journal2/sysbar.sh
+configure_file(${CMAKE_CURRENT_SOURCE_DIR}/src/system/sysbar.sh
                ${CMAKE_CURRENT_BINARY_DIR}/sysbar.sh
                COPYONLY)
 
 add_executable(system-widget
-    src/journal2/main.cpp
-    src/journal2/SystemWidget.cpp
-    src/journal2/SystemWidget.h
+    src/system/main.cpp
+    src/system/SystemWidget.cpp
+    src/system/SystemWidget.h
 )
 target_link_libraries(system-widget PRIVATE shapedblur)
 
@@ -97,8 +97,11 @@ add_executable(animation-widget
     src/animation/main.cpp
     src/animation/AnimationWidget.cpp
     src/animation/AnimationWidget.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/../svgs/signatureTP.svg
 )
-target_link_libraries(animation-widget PRIVATE shapedblur)
+target_link_libraries(animation-widget PRIVATE shapedblur Qt6::Svg)
+configure_file(${CMAKE_CURRENT_SOURCE_DIR}/../svgs/signatureTP.svg
+               ${CMAKE_CURRENT_BINARY_DIR}/signatureTP.svg COPYONLY)
 
 # --- terminal widget ---
 if(QTERMWIDGET_FOUND)
@@ -118,6 +121,7 @@ endif()
 
 install(TARGETS clock-widget journal-widget system-widget quote-widget animation-widget
         RUNTIME DESTINATION bin)
+install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/../svgs/signatureTP.svg DESTINATION bin)
 if(TARGET terminal-widget)
     install(TARGETS terminal-widget RUNTIME DESTINATION bin)
     install(FILES src/terminal/Orange.colorscheme DESTINATION bin)

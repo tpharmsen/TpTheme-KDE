@@ -1,6 +1,7 @@
 #pragma once
 
 #include "ShapedBlurWindow.h"
+#include <QImage>
 #include <QTimer>
 
 class AnimationWidget : public ShapedBlurWindow {
@@ -15,6 +16,11 @@ protected:
     void hideEvent(QHideEvent *event) override;
 
 private:
+    void renderStarfield();
+    void renderSignature();
+
     QTimer *m_timer;
+    QImage m_starfield;
+    QImage m_signature;
     qreal m_phase = 0.0;
 };

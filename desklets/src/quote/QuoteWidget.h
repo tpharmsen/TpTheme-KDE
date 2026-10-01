@@ -1,6 +1,7 @@
 #pragma once
 
 #include "ShapedBlurWindow.h"
+#include <QString>
 #include <QTimer>
 
 class QuoteWidget : public ShapedBlurWindow {
@@ -13,7 +14,9 @@ protected:
     void paintEvent(QPaintEvent *event) override;
 
 private:
+    void refreshSpecs();
+
     QTimer *m_timer;
-    int m_quoteIndex = 0;
+    QString m_specs;
     qreal m_scrollX = 0;
 };

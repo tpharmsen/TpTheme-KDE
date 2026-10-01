@@ -21,9 +21,12 @@ private:
     };
 
     void updateUsage(const QString &output);
+    void updateBattery();
 
     QProcess *m_process;
     QString m_outputBuffer;
     ResourceUsage m_usage;
+    int m_battery = 0;
+    bool m_batteryAvailable = false;
     QString m_uptime;
 };
