@@ -13,7 +13,7 @@ AnimationWidget::AnimationWidget(QWidget *parent) : ShapedBlurWindow(parent) {
     renderSignature();
 
     m_timer = new QTimer(this);
-    m_timer->setInterval(42);
+    m_timer->setInterval(50);
     connect(m_timer, &QTimer::timeout, this, [this] {
         m_phase = std::fmod(m_phase + 0.006, 4.0 * M_PI);
         update();
@@ -22,8 +22,8 @@ AnimationWidget::AnimationWidget(QWidget *parent) : ShapedBlurWindow(parent) {
 }
 
 void AnimationWidget::renderStarfield() {
-    constexpr qreal cacheScale = 4.0;
-    const QSize size(1520, 1520);
+    constexpr qreal cacheScale = 2.0;
+    const QSize size(760, 760);
     m_starfield = QImage(size, QImage::Format_ARGB32_Premultiplied);
     m_starfield.fill(Qt::transparent);
 
@@ -38,7 +38,23 @@ void AnimationWidget::renderStarfield() {
         const qreal starSize = (0.65 + (i % 4) * 0.35) * cacheScale;
         painter.setBrush(QColor(255, 183, 106,
                                 32 + int(random.generateDouble() * 60.0)));
-        painter.drawEllipse(QPointF(x + 760.0, y + 760.0), starSize, starSize);
+        painter.drawEllipse(QPointF(x + 380.0, y + 380.0), starSize, starSize);
+    }
+
+    const QColor orbitColor(200, 113, 55, 38);
+    painter.setBrush(Qt::NoBrush);
+    for (const auto &orbit : {
+             std::tuple<qreal, qreal, qreal>{88.0, 0.42, -24.0},
+             {124.0, 0.55, 38.0},
+             {158.0, 0.34, 67.0},
+             {178.0, 0.48, -52.0}}) {
+        painter.save();
+        painter.translate(380.0, 380.0);
+        painter.rotate(std::get<2>(orbit));
+        painter.setPen(QPen(orbitColor, 1.0 * cacheScale));
+        painter.drawEllipse(QPointF(0, 0), std::get<0>(orbit) * cacheScale,
+                            std::get<0>(orbit) * std::get<1>(orbit) * cacheScale);
+        painter.restore();
     }
 }
 
@@ -86,7 +102,7 @@ void AnimationWidget::paintEvent(QPaintEvent *event) {
     const QColor orange(200, 113, 55);
     const QColor paleOrange(255, 183, 106);
 
-    painter.setRenderHint(QPainter::SmoothPixmapTransform);
+    painter.setRenderHint(QPainter::SmoothPixmapTransform, false);
     painter.drawImage(QRectF(-190.0, -190.0, 380.0, 380.0), m_starfield);
 
     struct Orbit {
@@ -103,16 +119,6 @@ void AnimationWidget::paintEvent(QPaintEvent *event) {
         {158.0, 0.34, 67.0, 0.5, 13.0, 4.1},
         {178.0, 0.48, -52.0, -0.5, 8.0, 5.4}
     };
-
-    painter.setBrush(Qt::NoBrush);
-    for (const Orbit &orbit : orbits) {
-        painter.save();
-        painter.rotate(orbit.rotation);
-        painter.setPen(QPen(QColor(200, 113, 55, 38), 1.0));
-        painter.drawEllipse(QPointF(0, 0), orbit.radius,
-                            orbit.radius * orbit.tilt);
-        painter.restore();
-    }
 
     for (int i = 0; i < 4; ++i) {
         const Orbit &orbit = orbits[i];
@@ -170,6 +176,7 @@ void AnimationWidget::paintEvent(QPaintEvent *event) {
     painter.drawEllipse(QPointF(0, 0), 24.0, 24.0);
     painter.restore();
 
+    painter.setRenderHint(QPainter::SmoothPixmapTransform);
     painter.setOpacity(0.72);
     painter.drawImage(QRectF(32.0, 104.0, 150.0, 72.0), m_signature);
 }
