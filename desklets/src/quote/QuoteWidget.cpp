@@ -6,7 +6,7 @@
 #include <QPainter>
 
 QuoteWidget::QuoteWidget(QWidget *parent) : ShapedBlurWindow(parent) {
-    resize(560, 80);
+    resize(560, 50);
     m_scrollX = width();
     refreshSpecs();
 
