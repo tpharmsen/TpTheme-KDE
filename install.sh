@@ -32,6 +32,7 @@ DESKLETS_BUILD_DIR="$SCRIPT_DIR/desklets/build"
 mkdir -p "$AUTOSTART_DIR"
 rm -f "$AUTOSTART_DIR/animation-widget.desktop" "$AUTOSTART_DIR/anim-widget.desktop"
 rm -f "$AUTOSTART_DIR/signature-widget.desktop"
+rm -f "$AUTOSTART_DIR/terminal-widget.desktop"
 
 cat > "$AUTOSTART_DIR/journal-widget.desktop" <<EOF
 [Desktop Entry]
@@ -83,25 +84,10 @@ Enabled=true
 X-KDE-Autostart-Phase=Desktop
 EOF
 
-if [[ -x "$DESKLETS_BUILD_DIR/terminal-widget" ]]; then
-    cat > "$AUTOSTART_DIR/terminal-widget.desktop" <<EOF
-[Desktop Entry]
-Type=Application
-Name=Terminal Widget
-Exec=$DESKLETS_BUILD_DIR/terminal-widget
-Hidden=false
-Enabled=true
-X-KDE-Autostart-Phase=Desktop
-EOF
-fi
-
 echo "Created:"
 echo "  $AUTOSTART_DIR/journal-widget.desktop"
 echo "  $AUTOSTART_DIR/clock-widget.desktop"
 echo "  $AUTOSTART_DIR/system-widget.desktop"
 echo "  $AUTOSTART_DIR/quote-widget.desktop"
 echo "  $AUTOSTART_DIR/animation-widget.desktop"
-if [[ -f "$AUTOSTART_DIR/terminal-widget.desktop" ]]; then
-    echo "  $AUTOSTART_DIR/terminal-widget.desktop"
-fi
 echo "Installation complete!"

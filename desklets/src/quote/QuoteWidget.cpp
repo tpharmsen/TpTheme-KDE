@@ -1,6 +1,5 @@
 #include "QuoteWidget.h"
 
-#include <QDir>
 #include <QFile>
 #include <QProcess>
 #include <QSysInfo>
@@ -120,33 +119,6 @@ void QuoteWidget::refreshSpecs() {
             desktop += QStringLiteral(" %1").arg(sessionVersion);
     }
 
-    const QString theme = QStringLiteral("TpTheme");
-    QString terminalVersion = QStringLiteral("Unknown");
-    const QString konsoleVersion = runCommand(QStringLiteral("konsole"),
-                                               {QStringLiteral("--version")});
-    if (!konsoleVersion.isEmpty())
-        terminalVersion = konsoleVersion;
-
-    QString terminalFont = QStringLiteral("Unknown");
-    const QStringList profiles = QDir(QDir::homePath()
-        + QStringLiteral("/.local/share/konsole")).entryList(
-            {QStringLiteral("*.profile")}, QDir::Files);
-    for (const QString &profile : profiles) {
-        QFile profileFile(QDir::homePath()
-            + QStringLiteral("/.local/share/konsole/") + profile);
-        if (!profileFile.open(QIODevice::ReadOnly | QIODevice::Text))
-            continue;
-        while (!profileFile.atEnd()) {
-            const QString line = QString::fromUtf8(profileFile.readLine()).trimmed();
-            if (line.startsWith(QStringLiteral("Font="))) {
-                terminalFont = line.section('=', 1).section(',', 0, 0).trimmed();
-                break;
-            }
-        }
-        if (terminalFont != QStringLiteral("Unknown"))
-            break;
-    }
-
     const QString detectedLocalIp = runCommand(
         QStringLiteral("sh"),
         {QStringLiteral("-c"),
@@ -161,9 +133,7 @@ void QuoteWidget::refreshSpecs() {
         QStringLiteral("KERNEL: %1").arg(QSysInfo::kernelVersion()),
         QStringLiteral("DE: %1").arg(desktop),
         QStringLiteral("WM: %1").arg(windowManager),
-        QStringLiteral("THEME: %1").arg(theme),
-        QStringLiteral("TERMINAL VERSION: %1").arg(terminalVersion),
-        QStringLiteral("TERMINAL FONT: %1").arg(terminalFont),
+        QStringLiteral("THEME: TpTheme"),
         QStringLiteral("CPU: %1").arg(cpu),
         QStringLiteral("GPU: %1").arg(gpu),
         QStringLiteral("MEMORY: %1").arg(memory),
@@ -191,7 +161,7 @@ void QuoteWidget::paintEvent(QPaintEvent *event) {
     p.save();
     p.setClipRect(QRect(18, 18, width() - 36, height() - 36));
     p.setFont(font);
-    p.setPen(QColor(200, 113, 55));
+    p.setPen(QColor(QStringLiteral("#c87137")));
     const qreal baseline = height() / 2.0 + metrics.ascent() / 2.0 - 2;
     for (qreal x = m_scrollX; x < width(); x += textWidth)
         p.drawText(QPointF(x, baseline), text);
